@@ -18,9 +18,7 @@ string.h
 errno.h
 -
 
-/Users/saltmer/CLionProjects/push_swap_2/main.c
-stdio.h
--
+/Users/saltmer/CLionProjects/push_swap_2/operation.c
 push_swap.h
 /Users/saltmer/CLionProjects/push_swap_2/push_swap.h
 

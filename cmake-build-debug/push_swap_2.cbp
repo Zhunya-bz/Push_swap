@@ -93,6 +93,9 @@
 		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/main.c">
 			<Option target="push_swap_2"/>
 		</Unit>
+		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/operation.c">
+			<Option target="push_swap_2"/>
+		</Unit>
 		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

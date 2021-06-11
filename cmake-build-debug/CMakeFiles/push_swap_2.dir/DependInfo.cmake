@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/saltmer/CLionProjects/push_swap_2/libft/ft_isdigit.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/libft/ft_isdigit.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/libft/ft_putstr_fd.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/libft/ft_putstr_fd.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/main.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/main.c.o"
+  "/Users/saltmer/CLionProjects/push_swap_2/operation.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/operation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

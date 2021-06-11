@@ -277,6 +277,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/main.c.s
 .PHONY : main.c.s
 
+operation.o: operation.c.o
+
+.PHONY : operation.o
+
+# target to build an object file
+operation.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation.c.o
+.PHONY : operation.c.o
+
+operation.i: operation.c.i
+
+.PHONY : operation.i
+
+# target to preprocess a source file
+operation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation.c.i
+.PHONY : operation.c.i
+
+operation.s: operation.c.s
+
+.PHONY : operation.s
+
+# target to generate assembly for a file
+operation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation.c.s
+.PHONY : operation.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -301,6 +328,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... operation.o"
+	@echo "... operation.i"
+	@echo "... operation.s"
 .PHONY : help
 
 

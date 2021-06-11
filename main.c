@@ -132,27 +132,17 @@ static int check_double(int i, int *a)
 	return (1);
 }
 
-void ft_pb(p_list **head_a, p_list **head_b)
+
+void print_list(p_list **lst)
 {
 	p_list *tmp;
 
-	tmp = (*head_a);
-	(*head_a) = (*head_a)->next;
-	tmp->next = (*head_b);
-	(*head_b) = tmp;
-	ft_putstr_fd("pb\n", 1);
-	//printf("head_a1.value = %d\n", (*head_a)->value);
-}
-
-void ft_pa(p_list **head_a, p_list **head_b)
-{
-	p_list *tmp;
-
-	tmp = (*head_b);
-	(*head_b) = (*head_b)->next;
-	tmp->next = (*head_a);
-	(*head_a) = tmp;
-	ft_putstr_fd("pa\n", 1);
+	tmp = (*lst);
+	while (tmp != NULL)
+	{
+		printf("%d\n", tmp->value);
+		tmp = tmp->next;
+	}
 }
 
 int main(int argc, char **argv)
@@ -184,11 +174,18 @@ int main(int argc, char **argv)
 			}
 			i++;
 		}
-		printf("cont = %d\n", list_a->value);
+		//printf("cont = %d\n", list_a->value);
 		ft_pb(&list_a, &list_b);
+		ft_pb(&list_a, &list_b);
+		ft_pb(&list_a, &list_b);
+		ft_rra(&list_a);
+		print_list(&list_a);
+		//print_list(&list_b);
+		//ft_sa(&list_a);
 		//ft_pb(&list_a, &list_b);
-		ft_pa(&list_a, &list_b);
-		printf("list_b.value = %d\n", list_b->value);
+		//ft_pb(&list_a, &list_b);
+		//ft_pa(&list_a, &list_b);
+		printf("list_b.value = %d\n", list_a->value);
 //		printf("list_a.value = %d\n", list_a->value);
 	}
 }

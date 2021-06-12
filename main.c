@@ -264,13 +264,35 @@ void from_A_to_B(p_list **head_a, p_list **head_b, t_var *par)
 void from_B_to_A(p_list **head_a, p_list **head_b, t_var *par)
 {
 	int i;
+	int count;
+	p_list *tmp;
 
 	i = 0;
-	while (i < par->size_b / 2 + 1)
+	tmp = (*head_b);
+	count = 0;
+	while (tmp != NULL)
 	{
-		if ((*head_b)->order >= par->mid)
+		if (tmp->order > par->mid)
+			count++;
+		tmp = tmp->next;
+	}
+//	if (par->size_b % 2 == 0)
+//		count = par->size_b / 2;
+//	else
+//		count = par->size_b / 2 + 1;
+	while (i < count)
+	{
+		if ((*head_b)->order == par->next)
 		{
 			ft_pa(head_a, head_b);
+			ft_ra(head_a);
+			par->next++;
+			i++;
+		}
+		else if ((*head_b)->order > par->mid)
+		{
+			ft_pa(head_a, head_b);
+			(*head_a)->flag++;
 			i++;
 		}
 		else
@@ -313,13 +335,64 @@ int ft_find_order(p_list **head_a, t_var *par)
 	return (par->c);
 }
 
-int main(int argc, char **argv)
+int check_string(char **argv, t_var *par, p_list **list_a, int *a)
 {
-	int i;
-	int *a;
-	int *sort;
 	char **argv2;
 	int j;
+
+	j = 0;
+	argv2 = ft_split(argv[1], ' ');
+	while (argv2[j])
+	{
+		if (!read_argv(argv2, j, par))
+		{
+			free(a);
+			return (0);
+		}
+		a[j] = (int)par->nb;
+		ft_lstadd_back_p(list_a, ft_lstnew_p((int)par->nb));
+		if (!check_double(j + 1, a))
+		{
+			free(a);
+			return (0);
+		}
+		par->len++;
+		j++;
+	}
+	return (1);
+}
+
+int check_argument(char **argv, t_var *par, p_list **list_a, int *a)
+{
+	int i;
+
+	i = 1;
+	while (i < par->argc)
+	{
+		if (!read_argv(argv, i, par))
+		{
+			free(a);
+			return (0);
+		}
+		a[i - 1] = (int)par->nb;
+		ft_lstadd_back_p(list_a, ft_lstnew_p((int)par->nb));
+		if (!check_double(i, a))
+		{
+			free(a);
+			return (0);
+		}
+		par->len++;
+		i++;
+	}
+	return (1);
+}
+
+
+
+int main(int argc, char **argv)
+{
+	int *a;
+	int *sort;
 	p_list *list_a;
 	p_list *list_b;
 	t_var par;
@@ -329,86 +402,36 @@ int main(int argc, char **argv)
 	par.len = 0;
 	par.next = 1;
 	par.flag = 0;
-	//par.fl = 0;
+	par.argc = argc;
 	if (argc > 1)
 	{
-		i = 1;
-		j = 0;
 		a = ft_calloc((2 * argc), (sizeof(int)));
 		sort = ft_calloc((2 * argc), (sizeof(int)));
 		if (argc == 2)
 		{
-			argv2 = ft_split(argv[1], ' ');
-			//printf("%s %s %s\n", argv2[0], argv2[1], argv2[2]);
-			//par.fl = 1;
-			while (argv2[j])
-			{
-				if (!read_argv(argv2, j, &par))
-				{
-					free(a);
-					return (0);
-				}
-				a[j] = (int)par.nb;
-				ft_lstadd_back_p(&list_a, ft_lstnew_p((int)par.nb));
-				if (!check_double(j + 1, a))
-				{
-					free(a);
-					return (0);
-				}
-				par.len++;
-				j++;
-			}
+			if (!check_string(argv, &par, &list_a, a))
+				return (0);
 		}
 		else
-		{
-			while (i < argc)
-			{
-				if (!read_argv(argv, i, &par))
-				{
-					free(a);
-					return (0);
-				}
-				a[i - 1] = (int)par.nb;
-				ft_lstadd_back_p(&list_a, ft_lstnew_p((int)par.nb));
-				if (!check_double(i, a))
-				{
-					free(a);
-					return (0);
-				}
-				par.len++;
-				i++;
-			}
-		}
-		//printf("%d\n", par.len);
+			if (!check_argument(argv, &par, &list_a, a))
+				return (0);
 		if (if_sort(a, 0, par.len))
 		{
 			free(a);
 			return (0);
 		}
 		sort = ft_sorted(sort, a, par.len);
-//		printf("\na: ");
-//		for (int k = 0; k < par.len; k++)
-//			printf("%d ", a[k]);
-//		printf("\n");
-//		printf("\nsort: ");
-//		for (int k = 0; k < par.len; k++)
-//			printf("%d ", sort[k]);
-//		printf("\n");
 		ft_order(&list_a, sort);
 		free(a);
 		par.max = par.len;
 		par.mid = par.max / 2 + par.next;
-		//printf("mid = %d\n", par.mid);
-//		printf("%d %d %d %d %d %d\n", par.len, par.next, par.flag, par
-//				.mid, par.max, list_a->order);
-		//exit(1);
-		from_A_to_B(&list_a, &list_b, &par);
 
+		from_A_to_B(&list_a, &list_b, &par);
+		par.flag++;
 		//print_list(&list_a, &list_b);
 		while (!(if_sort_list(&list_a) && list_b == NULL))
 		{
 			//print_list(&list_a, &list_b);
-			par.flag++;
 			par.size_b = ft_lstsize_p(list_b);
 			while (par.size_b > 3)
 			{
@@ -416,8 +439,7 @@ int main(int argc, char **argv)
 				par.mid = (par.max - par.next) / 2 + par.next;
 				from_B_to_A(&list_a, &list_b, &par);
 				par.size_b = ft_lstsize_p(list_b);
-//				printf("%d %d %d %d %d\n", par.len, par.next, par.size_b, par
-//				.mid, par.max);
+				par.flag++;
 			}
 			if (par.size_b == 3)
 			{
@@ -433,21 +455,50 @@ int main(int argc, char **argv)
 			}
 			if (par.size_b == 2)
 			{
-				if ((list_b)->value < list_b->next->value)
+				if (list_b->order == par.next)
+				{
+					ft_pa(&list_a, &list_b);
+					ft_ra(&list_a);
+					par.next++;
+					par.size_b--;
+				}
+				else if (list_b->next->order == par.next)
+				{
 					ft_sb(&list_b);
-				ft_pa(&list_a, &list_b);
-				ft_pa(&list_a, &list_b);
-				ft_ra(&list_a);
-				ft_ra(&list_a);
-				par.next += 2;
+					ft_pa(&list_a, &list_b);
+					ft_ra(&list_a);
+					par.next++;
+					par.size_b--;
+				}
+				else
+				{
+					ft_pa(&list_a, &list_b);
+					list_a->flag++;
+					ft_pa(&list_a, &list_b);
+					list_a->flag++;
+					par.size_b -= 2;
+				}
 			}
-			else if (par.size_b == 1)
+			if (par.size_b == 1)
 			{
-				ft_pa(&list_a, &list_b);
+				if (list_b->order == par.next)
+				{
+					ft_pa(&list_a, &list_b);
+					ft_ra(&list_a);
+					par.next++;
+				}
+				else
+				{
+					ft_pa(&list_a, &list_b);
+					list_a->flag++;
+				}
+			}
+			if (list_a->next->order == par.next)
+			{
+				ft_sa(&list_a);
 				ft_ra(&list_a);
 				par.next++;
 			}
-
 			while (list_a->order == par.next)
 			{
 				ft_ra(&list_a);
@@ -464,7 +515,6 @@ int main(int argc, char **argv)
 				{
 					ft_pb(&list_a, &list_b);
 					par.c = 1;
-					list_b->flag++;
 				}
 				if (par.c == 1)
 					break;

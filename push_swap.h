@@ -20,8 +20,8 @@ typedef struct s_variable
 	int next;
 	int c;
 	int size_b;
-	int fl;
 	long nb;
+	int argc;
 }				t_var;
 
 

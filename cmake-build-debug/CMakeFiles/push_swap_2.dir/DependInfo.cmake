@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/saltmer/CLionProjects/push_swap_2/libft/ft_calloc.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/libft/ft_calloc.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/libft/ft_isdigit.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/libft/ft_isdigit.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/libft/ft_putstr_fd.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/libft/ft_putstr_fd.c.o"
+  "/Users/saltmer/CLionProjects/push_swap_2/libft/ft_split.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/libft/ft_split.c.o"
+  "/Users/saltmer/CLionProjects/push_swap_2/libft/ft_substr.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/libft/ft_substr.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/main.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/main.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/operation_a.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/operation_a.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/operation_b.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/operation_b.c.o"

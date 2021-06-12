@@ -13,6 +13,12 @@ CMakeFiles/push_swap_2.dir/libft/ft_isdigit.c.o: ../libft/libft.h
 CMakeFiles/push_swap_2.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
 CMakeFiles/push_swap_2.dir/libft/ft_putstr_fd.c.o: ../libft/libft.h
 
+CMakeFiles/push_swap_2.dir/libft/ft_split.c.o: ../libft/ft_split.c
+CMakeFiles/push_swap_2.dir/libft/ft_split.c.o: ../libft/libft.h
+
+CMakeFiles/push_swap_2.dir/libft/ft_substr.c.o: ../libft/ft_substr.c
+CMakeFiles/push_swap_2.dir/libft/ft_substr.c.o: ../libft/libft.h
+
 CMakeFiles/push_swap_2.dir/main.c.o: ../libft.h
 CMakeFiles/push_swap_2.dir/main.c.o: ../main.c
 CMakeFiles/push_swap_2.dir/main.c.o: ../push_swap.h

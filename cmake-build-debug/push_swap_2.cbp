@@ -90,6 +90,12 @@
 		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/libft/ft_putstr_fd.c">
 			<Option target="push_swap_2"/>
 		</Unit>
+		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/libft/ft_split.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/libft/ft_substr.c">
+			<Option target="push_swap_2"/>
+		</Unit>
 		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/main.c">
 			<Option target="push_swap_2"/>
 		</Unit>

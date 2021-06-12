@@ -250,6 +250,60 @@ libft/ft_putstr_fd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft/ft_putstr_fd.c.s
 .PHONY : libft/ft_putstr_fd.c.s
 
+libft/ft_split.o: libft/ft_split.c.o
+
+.PHONY : libft/ft_split.o
+
+# target to build an object file
+libft/ft_split.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft/ft_split.c.o
+.PHONY : libft/ft_split.c.o
+
+libft/ft_split.i: libft/ft_split.c.i
+
+.PHONY : libft/ft_split.i
+
+# target to preprocess a source file
+libft/ft_split.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft/ft_split.c.i
+.PHONY : libft/ft_split.c.i
+
+libft/ft_split.s: libft/ft_split.c.s
+
+.PHONY : libft/ft_split.s
+
+# target to generate assembly for a file
+libft/ft_split.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft/ft_split.c.s
+.PHONY : libft/ft_split.c.s
+
+libft/ft_substr.o: libft/ft_substr.c.o
+
+.PHONY : libft/ft_substr.o
+
+# target to build an object file
+libft/ft_substr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft/ft_substr.c.o
+.PHONY : libft/ft_substr.c.o
+
+libft/ft_substr.i: libft/ft_substr.c.i
+
+.PHONY : libft/ft_substr.i
+
+# target to preprocess a source file
+libft/ft_substr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft/ft_substr.c.i
+.PHONY : libft/ft_substr.c.i
+
+libft/ft_substr.s: libft/ft_substr.c.s
+
+.PHONY : libft/ft_substr.s
+
+# target to generate assembly for a file
+libft/ft_substr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft/ft_substr.c.s
+.PHONY : libft/ft_substr.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -379,6 +433,12 @@ help:
 	@echo "... libft/ft_putstr_fd.o"
 	@echo "... libft/ft_putstr_fd.i"
 	@echo "... libft/ft_putstr_fd.s"
+	@echo "... libft/ft_split.o"
+	@echo "... libft/ft_split.i"
+	@echo "... libft/ft_split.s"
+	@echo "... libft/ft_substr.o"
+	@echo "... libft/ft_substr.i"
+	@echo "... libft/ft_substr.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

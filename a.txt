@@ -1,0 +1,1142 @@
+pb
+ra
+pb
+ra
+pb
+ra
+pb
+pb
+ra
+pb
+pb
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+pb
+pb
+pb
+pa
+rb
+pa
+pa
+pa
+rb
+rb
+pa
+rb
+rb
+pa
+rb
+pa
+rb
+pa
+pa
+rb
+rb
+rb
+pa
+pa
+pa
+pa
+ra
+ra
+pa
+ra
+pa
+pa
+ra
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pa
+pa
+pa
+pa
+rb
+pa
+pa
+pa
+pa
+rb
+rb
+pa
+pa
+pa
+sb
+pa
+pa
+ra
+ra
+mid = 16
+A:
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+B:
+value = 14   order = 14   flag = 1
+value = 3   order = 3   flag = 1
+value = 16   order = 16   flag = 1
+value = 13   order = 13   flag = 1
+value = 15   order = 15   flag = 1
+value = 2   order = 2   flag = 1
+value = 1   order = 1   flag = 1
+value = 8   order = 8   flag = 1
+value = 4   order = 4   flag = 1
+value = 5   order = 5   flag = 1
+value = 11   order = 11   flag = 1
+value = 7   order = 7   flag = 1
+value = 12   order = 12   flag = 1
+value = 6   order = 6   flag = 1
+value = 10   order = 10   flag = 1
+value = 9   order = 9   flag = 1
+A:
+value = 6   order = 6   flag = 1
+value = 7   order = 7   flag = 1
+value = 5   order = 5   flag = 1
+value = 4   order = 4   flag = 1
+value = 9   order = 9   flag = 1
+value = 10   order = 10   flag = 1
+value = 12   order = 12   flag = 1
+value = 11   order = 11   flag = 1
+value = 8   order = 8   flag = 1
+value = 15   order = 15   flag = 1
+value = 13   order = 13   flag = 1
+value = 16   order = 16   flag = 1
+value = 14   order = 14   flag = 1
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+B:
+A:
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+B:
+value = 14   order = 14   flag = 2
+value = 16   order = 16   flag = 2
+value = 13   order = 13   flag = 2
+value = 15   order = 15   flag = 2
+value = 8   order = 8   flag = 2
+value = 11   order = 11   flag = 2
+value = 12   order = 12   flag = 2
+value = 10   order = 10   flag = 2
+value = 9   order = 9   flag = 2
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 7   order = 7   flag = 2
+value = 6   order = 6   flag = 2
+A:
+value = 8   order = 8   flag = 2
+value = 6   order = 6   flag = 2
+value = 7   order = 7   flag = 2
+value = 9   order = 9   flag = 2
+value = 10   order = 10   flag = 2
+value = 12   order = 12   flag = 2
+value = 11   order = 11   flag = 2
+value = 15   order = 15   flag = 2
+value = 13   order = 13   flag = 2
+value = 16   order = 16   flag = 2
+value = 14   order = 14   flag = 2
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+valupb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+rb
+rb
+pa
+pa
+pa
+ra
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+pa
+pa
+pa
+pa
+sb
+pa
+pa
+ra
+ra
+e = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+B:
+A:
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+B:
+value = 14   order = 14   flag = 3
+value = 16   order = 16   flag = 3
+value = 13   order = 13   flag = 3
+value = 15   order = 15   flag = 3
+value = 11   order = 11   flag = 3
+value = 12   order = 12   flag = 3
+value = 10   order = 10   flag = 3
+value = 9   order = 9   flag = 3
+value = 7   order = 7   flag = 3
+value = 6   order = 6   flag = 3
+value = 8   order = 8   flag = 3
+A:
+value = 12   order = 12   flag = 3
+value = 11   order = 11   flag = 3
+value = 15   order = 15   flag = 3
+value = 13   order = 13   flag = 3
+value = 16   order = 16   flag = 3
+value = 14   order = 14   flag = 3
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+B:
+A:
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+B:
+value = 14   order = 14   flag = 4
+value = 16   order = 16   flag = 4
+value = 13   order = 13   flag = 4
+value = 15   order = 15   flag = 4
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+A:
+value = 15   order = 15   flag = 4
+value = 13   order = 13   flag = 4
+value = 16   order = 16   flag = 4
+value = 14   order = 14   flag = 4
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = pb
+pb
+pb
+pb
+pa
+pa
+rb
+pa
+pa
+ra
+pb
+pb
+pb
+pa
+ra
+pa
+pa
+ra
+ra
+9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+B:
+A:
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+B:
+value = 14   order = 14   flag = 5
+value = 16   order = 16   flag = 5
+value = 13   order = 13   flag = 5
+value = 15   order = 15   flag = 5
+A:
+value = 15   order = 15   flag = 5
+value = 16   order = 16   flag = 5
+value = 14   order = 14   flag = 5
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+B:
+A:
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+B:
+value = 14   order = 14   flag = 6
+value = 16   order = 16   flag = 6
+value = 15   order = 15   flag = 6
+A:
+value = 20   order = 20   flag = 0
+value = 28   order = 28   flag = 0
+value = 26   order = 26   flag = 0
+value = 21   order = 21   flag = 0
+value = 19   order = 19   flag = 0
+value = 30   order = 30   flag = 0
+value = 18   order = 18   flag = 0
+value = 25   order = 25   flag = 0
+value = 27   order = 27   flag = 0
+value = 23   order = 23   flag = 0
+value = 29   order = 29   flag = 0
+value = 17   order = 17   flag = 0
+value = 24   order = 24   flag = 0
+value = 22   order = 22   flag = 0
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+vpb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+rb
+pa
+rb
+pa
+pa
+pa
+pa
+rb
+pa
+rb
+rb
+pa
+pa
+pa
+pa
+rb
+rb
+pa
+pa
+sb
+pa
+pa
+ra
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pa
+pa
+rb
+pa
+pa
+pa
+pa
+pa
+rb
+pa
+rb
+pa
+pa
+pa
+pa
+ra
+ra
+alue = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+B:
+A:
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+B:
+value = 22   order = 22   flag = 1
+value = 24   order = 24   flag = 1
+value = 17   order = 17   flag = 1
+value = 29   order = 29   flag = 1
+value = 23   order = 23   flag = 1
+value = 27   order = 27   flag = 1
+value = 25   order = 25   flag = 1
+value = 18   order = 18   flag = 1
+value = 30   order = 30   flag = 1
+value = 19   order = 19   flag = 1
+value = 21   order = 21   flag = 1
+value = 26   order = 26   flag = 1
+value = 28   order = 28   flag = 1
+value = 20   order = 20   flag = 1
+A:
+value = 21   order = 21   flag = 1
+value = 19   order = 19   flag = 1
+value = 22   order = 22   flag = 1
+value = 20   order = 20   flag = 1
+value = 28   order = 28   flag = 1
+value = 26   order = 26   flag = 1
+value = 30   order = 30   flag = 1
+value = 25   order = 25   flag = 1
+value = 27   order = 27   flag = 1
+value = 23   order = 23   flag = 1
+value = 29   order = 29   flag = 1
+value = 24   order = 24   flag = 1
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+B:
+A:
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+B:
+value = 24   order = 24   flag = 2
+value = 29   order = 29   flag = 2
+value = 23   order = 23   flag = 2
+value = 27   order = 27   flag = 2
+value = 25   order = 25   flag = 2
+value = 30   order = 30   flag = 2
+value = 26   order = 26   flag = 2
+value = 28   order = 28   flag = 2
+value = 20   order = 20   flag = 2
+value = 22   order = 22   flag = 2
+value = 19   order = 19   flag = 2
+value = 21   order = 21   flag = 2
+A:
+value = 23   order = 23   flag = 2
+value = 21   order = 21   flag = 2
+value = 22   order = 22   flag = 2
+value = 28   order = 28   flag = 2
+value = 26   order = 26   flag = 2
+value = 30   order = 30   flag = 2
+value = 25   order = 25   flag = 2
+value = 27   order = 27   flag = 2
+value = 29   order = 29   flag = 2
+value = 24   order = 24   flag = 2
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   orpb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+rb
+pa
+pa
+pa
+pa
+pa
+pa
+pa
+rb
+pa
+pa
+pa
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pa
+pa
+rb
+pa
+pa
+pa
+rb
+pa
+pa
+pa
+pa
+ra
+der = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = 19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+B:
+A:
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = 19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+B:
+value = 24   order = 24   flag = 3
+value = 29   order = 29   flag = 3
+value = 27   order = 27   flag = 3
+value = 25   order = 25   flag = 3
+value = 30   order = 30   flag = 3
+value = 26   order = 26   flag = 3
+value = 28   order = 28   flag = 3
+value = 22   order = 22   flag = 3
+value = 21   order = 21   flag = 3
+value = 23   order = 23   flag = 3
+A:
+value = 24   order = 24   flag = 3
+value = 23   order = 23   flag = 3
+value = 22   order = 22   flag = 3
+value = 28   order = 28   flag = 3
+value = 26   order = 26   flag = 3
+value = 30   order = 30   flag = 3
+value = 25   order = 25   flag = 3
+value = 27   order = 27   flag = 3
+value = 29   order = 29   flag = 3
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = 19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+value = 21   order = 21   flag = 3
+B:
+A:
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = 19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+value = 21   order = 21   flag = 3
+B:
+value = 29   order = 29   flag = 4
+value = 27   order = 27   flag = 4
+value = 25   order = 25   flag = 4
+value = 30   order = 30   flag = 4
+value = 26   order = 26   flag = 4
+value = 28   order = 28   flag = 4
+value = 22   order = 22   flag = 4
+value = 23   order = 23   flag = 4
+value = 24   order = 24   flag = 4
+A:
+value = 25   order = 25   flag = 4
+value = 24   order = 24   flag = 4
+value = 23   order = 23   flag = 4
+value = 28   order = 28   flag = 4
+value = 26   order = 26   flag = 4
+value = 30   order = 30   flag = 4
+value = 27   order = 27   flag = 4
+value = 29   order = 29   flag = 4
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flapb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pa
+pa
+pa
+pa
+pa
+pa
+ra
+sb
+pa
+pa
+ra
+ra
+pb
+pb
+pb
+pb
+pb
+pa
+rb
+pa
+rb
+pa
+pa
+pa
+ra
+ra
+ra
+g = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = 19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+value = 21   order = 21   flag = 3
+value = 22   order = 22   flag = 4
+B:
+A:
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = 19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+value = 21   order = 21   flag = 3
+value = 22   order = 22   flag = 4
+B:
+value = 29   order = 29   flag = 5
+value = 27   order = 27   flag = 5
+value = 30   order = 30   flag = 5
+value = 26   order = 26   flag = 5
+value = 28   order = 28   flag = 5
+value = 23   order = 23   flag = 5
+value = 24   order = 24   flag = 5
+value = 25   order = 25   flag = 5
+A:
+value = 28   order = 28   flag = 5
+value = 26   order = 26   flag = 5
+value = 30   order = 30   flag = 5
+value = 27   order = 27   flag = 5
+value = 29   order = 29   flag = 5
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = 19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+value = 21   order = 21   flag = 3
+value = 22   order = 22   flag = 4
+value = 23   order = 23   flag = 5
+value = 24   order = 24   flag = 5
+value = 25   order = 25   flag = 5
+B:
+A:
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = 19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+value = 21   order = 21   flag = 3
+value = 22   order = 22   flag = 4
+value = 23   order = 23   flag = 5
+value = 24   order = 24   flag = 5
+value = 25   order = 25   flag = 5
+B:
+value = 29   order = 29   flag = 6
+value = 27   order = 27   flag = 6
+value = 30   order = 30   flag = 6
+value = 26   order = 26   flag = 6
+value = 28   order = 28   flag = 6
+A:
+value = 30   order = 30   flag = 6
+value = 29   order = 29   flag = 6
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = pb
+pb
+sb
+pa
+pa
+ra
+ra
+19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+value = 21   order = 21   flag = 3
+value = 22   order = 22   flag = 4
+value = 23   order = 23   flag = 5
+value = 24   order = 24   flag = 5
+value = 25   order = 25   flag = 5
+value = 26   order = 26   flag = 6
+value = 27   order = 27   flag = 6
+value = 28   order = 28   flag = 6
+B:
+A:
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = 19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+value = 21   order = 21   flag = 3
+value = 22   order = 22   flag = 4
+value = 23   order = 23   flag = 5
+value = 24   order = 24   flag = 5
+value = 25   order = 25   flag = 5
+value = 26   order = 26   flag = 6
+value = 27   order = 27   flag = 6
+value = 28   order = 28   flag = 6
+B:
+value = 29   order = 29   flag = 7
+value = 30   order = 30   flag = 7
+A:
+value = 1   order = 1   flag = 1
+value = 2   order = 2   flag = 1
+value = 3   order = 3   flag = 1
+value = 4   order = 4   flag = 2
+value = 5   order = 5   flag = 2
+value = 6   order = 6   flag = 3
+value = 7   order = 7   flag = 3
+value = 8   order = 8   flag = 3
+value = 9   order = 9   flag = 3
+value = 10   order = 10   flag = 3
+value = 11   order = 11   flag = 4
+value = 12   order = 12   flag = 4
+value = 13   order = 13   flag = 5
+value = 14   order = 14   flag = 6
+value = 15   order = 15   flag = 6
+value = 16   order = 16   flag = 6
+value = 17   order = 17   flag = 1
+value = 18   order = 18   flag = 1
+value = 19   order = 19   flag = 2
+value = 20   order = 20   flag = 2
+value = 21   order = 21   flag = 3
+value = 22   order = 22   flag = 4
+value = 23   order = 23   flag = 5
+value = 24   order = 24   flag = 5
+value = 25   order = 25   flag = 5
+value = 26   order = 26   flag = 6
+value = 27   order = 27   flag = 6
+value = 28   order = 28   flag = 6
+value = 29   order = 29   flag = 7
+value = 30   order = 30   flag = 7
+B:

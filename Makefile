@@ -1,4 +1,4 @@
-SRCS = main.c operation_a.c operation_b.c operation_both.c
+SRCS = main.c operation_a.c operation_b.c operation_both.c libft_lst.c
 
 OBJS = ${SRCS:.c=.o}
 

@@ -24,18 +24,30 @@ typedef struct s_variable
 	int argc;
 }				t_var;
 
-
-void ft_pb(p_list **head_a, p_list **head_b);
-void ft_pa(p_list **head_a, p_list **head_b);
-void ft_sa(p_list **head_a);
-void ft_sb(p_list **head_b);
-void ft_ra(p_list **head_a);
-void ft_rb(p_list **head_b);
-void ft_rr(p_list **head_a, p_list **head_b);
-void ft_rra(p_list **head_a);
-void ft_rrb(p_list **head_b);
-void ft_rrr(p_list **head_a, p_list **head_b);
-
+void	ft_pb(p_list **head_a, p_list **head_b);
+void	ft_pa(p_list **head_a, p_list **head_b);
+void	ft_sa(p_list **head_a);
+void	ft_sb(p_list **head_b);
+void	ft_ra(p_list **head_a);
+void	ft_rb(p_list **head_b);
+void	ft_rr(p_list **head_a, p_list **head_b);
+void	ft_rra(p_list **head_a);
+void	ft_rrb(p_list **head_b);
+void	ft_rrr(p_list **head_a, p_list **head_b);
+void	ft_lstadd_back_p(p_list **lst, p_list *new);
+int		ft_lstsize_p(p_list *lst);
+p_list	*ft_lstnew_p(int content);
+int		if_sort(int *a, int i, int len);
+int		*ft_sorted(int *sort, int *a, int len);
+int		if_sort_list(p_list **head_a);
+int		check_top_bottom(p_list **lst, t_var *par);
+int		read_argv(char **argv, int i, t_var *par);
+int		check_argument(char **argv, t_var *par, p_list **list_a, int *a);
+int		check_string(char **argv, t_var *par, p_list **list_a, int *a);
+int		ft_find_order(p_list **head_a, t_var *par);
+void	from_A_to_B(p_list **head_a, p_list **head_b, t_var *par);
+void	from_B_to_A(p_list **head_a, p_list **head_b, t_var *par, int c);
+void	ft_order(p_list **head_a, int *sort);
 
 #endif
 

@@ -1,199 +1,7 @@
 #include <stdio.h>
 #include "push_swap.h"
 
-p_list	*ft_lstnew_p(int content)
-{
-	p_list	*new_el;
-
-	new_el = (p_list *)malloc(sizeof(p_list));
-	if (!new_el)
-		return (NULL);
-	new_el->value = content;
-	new_el->order = 0;
-	new_el->flag = 0;
-	new_el->next = NULL;
-	return (new_el);
-}
-
-void	ft_lstadd_front_p(p_list **lst, p_list *new)
-{
-	if (!lst || !new)
-		return ;
-	new->next = *lst;
-	*lst = new;
-}
-
-p_list	*ft_lstlast_p(p_list *lst)
-{
-	p_list	*copy_lst;
-
-	copy_lst = lst;
-	if (!lst)
-		return (0);
-	while (copy_lst->next != NULL)
-	{
-		copy_lst = copy_lst->next;
-	}
-	return (copy_lst);
-}
-
-int	ft_lstsize_p(p_list *lst)
-{
-	int		count;
-	p_list	*copy_lst;
-
-	count = 0;
-	copy_lst = lst;
-	if (!lst)
-		return (0);
-	while (copy_lst != NULL)
-	{
-		count++;
-		copy_lst = copy_lst->next;
-	}
-	return (count);
-}
-
-void	ft_lstadd_back_p(p_list **lst, p_list *new)
-{
-	p_list	*last_el;
-
-	if (*lst == NULL)
-	{
-		*lst = new;
-	}
-	else
-	{
-		last_el = ft_lstlast_p(*lst);
-		last_el->next = new;
-	}
-}
-
-long	ft_atoi_long(char *str)
-{
-	unsigned int	i;
-	int				sign;
-	unsigned long	res;
-
-	i = 0;
-	sign = 1;
-	res = 0;
-	while (((str[i] > 8) && (str[i] < 14)) || (str[i] == 32))
-		i++;
-	if ((str[i] == '-') || (str[i] == '+'))
-	{
-		if (str[i] == '-')
-			sign = -1;
-		i++;
-	}
-	while ((str[i] && str[i] >= '0' && str[i] <= '9'))
-	{
-		res = res * 10 + str[i] - '0';
-		i++;
-	}
-	if ((sign == -1) && (res > 9223372036854775808u))
-		return (0);
-	if ((sign == 1) && (res >= 9223372036854775808u))
-		return (-1);
-	return (sign * res);
-}
-
-static void ft_swap(int *a, int *b)
-{
-	int c;
-
-	c = *a;
-	*a = *b;
-	*b = c;
-}
-
-static void	quick_sort(int *sort, int l, int len_n)
-{
-	int right;
-	int pivot;
-	int left;
-
-	left = l;
-	right = len_n;
-	pivot = sort[(left + right) / 2];
-	while (left <= right)
-	{
-		while (sort[left] < pivot)
-			left++;
-		while (sort[right] > pivot)
-			right--;
-		if (left <= right)
-			ft_swap(&sort[left++], &sort[right--]);
-	}
-	if (l < right) // сортируем левую часть
-		quick_sort(sort, l, right);
-	if (len_n > left) // сортируем правую часть
-		quick_sort(sort, left, len_n);
-}
-
-static int *ft_sorted(int *sort, int *a, int len)
-{
-	int i;
-
-	sort = ft_calloc((len + 1), sizeof(int));
-	i = 0;
-	while (i < len)
-	{
-		sort[i] = a[i];
-		i++;
-	}
-	quick_sort(sort, 0, len - 1);
-	return (sort);
-}
-
-static int read_argv(char **argv, int i, t_var *par)
-{
-	int j;
-	long nb;
-
-	j = 0;
-	nb = 0;
-	while (argv[i][j])
-	{
-		if ((!ft_isdigit(argv[i][j])) && (argv[i][j] != '-')) // проверка что// не// буквы
-		{
-			ft_putstr_fd("Error0", 1);
-			return (0);
-		}
-		par->nb = ft_atoi_long(argv[i]); // выделяем из строки число
-		//nb = nb * 10 + argv[i][j] - '0'; // выделяем из строки число
-		if ((nb > 2147483647) || (nb < -2147483648)) //проверка на int
-		{
-			ft_putstr_fd("Error1", 1);
-			return (0);
-		}
-		j++;
-	}
-
-//	a[i - 1] = (int)nb;
-//	ft_lstadd_back_p(lst, ft_lstnew_p((int)nb));
-	return (1);
-}
-
-static int check_double(int i, int *a)
-{
-	int k;
-
-	k = 0;
-	while (k < i - 1) //проверка на дубликаты
-	{
-		if (a[k] == a[i - 1])
-		{
-			ft_putstr_fd("Error2", 1);
-			return (0);
-		}
-		k++;
-	}
-	return (1);
-}
-
-
-void print_list(p_list **lst1, p_list **lst2)
+void print_list(p_list **lst1, p_list **lst2) /// !!! DELETE !!!
 {
 	p_list *tmp;
 
@@ -215,191 +23,6 @@ void print_list(p_list **lst1, p_list **lst2)
 		printf("flag = %d\n", tmp->flag);
 		tmp = tmp->next;
 	}
-}
-
-static int if_sort(int *a, int i, int len)
-{
-	while (a[i] < a[i + 1] && i < len - 1)
-		i++;
-	if (i != len - 1)
-		return (0);
-	else
-		return (1);
-}
-
-void ft_order(p_list **head_a, int *sort)
-{
-	p_list *tmp;
-	int i;
-
-	tmp = (*head_a);
-	while (tmp != NULL)
-	{
-		i = 0;
-		while (sort[i] != tmp->value)
-			i++;
-		tmp->order = i + 1;
-		tmp = tmp->next;
-	}
-}
-
-void from_A_to_B(p_list **head_a, p_list **head_b, t_var *par)
-{
-	int i;
-
-	i = 0;
-	while (i < par->mid)
-	{
-		if ((*head_a)->order <= par->mid)
-		{
-			(*head_a)->flag++;
-			ft_pb(head_a, head_b);
-			i++;
-		}
-		else
-			ft_ra(head_a);
-	}
-}
-
-void from_B_to_A(p_list **head_a, p_list **head_b, t_var *par, int c)
-{
-	int i;
-	int count;
-	p_list *tmp;
-
-	i = 0;
-	tmp = (*head_b);
-	count = 0;
-	while (tmp != NULL)
-	{
-		if (tmp->order >= par->mid)
-			count++;
-		tmp = tmp->next;
-	}
-	while (i < count)
-	{
-		if ((*head_b)->order >= par->mid)
-		{
-			ft_pa(head_a, head_b);
-			(*head_a)->flag = c;
-			i++;
-		}
-		else if ((*head_b)->order == par->next)
-		{
-			ft_pa(head_a, head_b);
-			ft_ra(head_a);
-			par->next++;
-			//i++;
-		}
-		else
-			ft_rb(head_b);
-	}
-}
-
-int if_sort_list(p_list **head_a)
-{
-	p_list *tmp;
-	p_list *tmp2;
-
-	tmp = (*head_a);
-	tmp2 = (*head_a)->next;
-	while (tmp->next != NULL)
-	{
-		if (tmp->value < tmp2->value)
-		{
-			tmp = tmp->next;
-			tmp2 = tmp2->next;
-		}
-		else
-			return (0);
-	}
-	return (1);
-}
-
-int ft_find_order(p_list **head_a, t_var *par)
-{
-	p_list *tmp;
-
-	tmp = (*head_a)->next;
-	par->c = (*head_a)->order;
-	while (tmp != NULL)
-	{
-		if (tmp->order > par->c)
-			par->c = tmp->order;
-		tmp = tmp->next;
-	}
-	return (par->c);
-}
-
-int check_string(char **argv, t_var *par, p_list **list_a, int *a)
-{
-	char **argv2;
-	int j;
-
-	j = 0;
-	argv2 = ft_split(argv[1], ' ');
-	while (argv2[j])
-	{
-		if (!read_argv(argv2, j, par))
-		{
-			free(a);
-			return (0);
-		}
-		a[j] = (int)par->nb;
-		ft_lstadd_back_p(list_a, ft_lstnew_p((int)par->nb));
-		if (!check_double(j + 1, a))
-		{
-			free(a);
-			return (0);
-		}
-		par->len++;
-		j++;
-	}
-	return (1);
-}
-
-int check_argument(char **argv, t_var *par, p_list **list_a, int *a)
-{
-	int i;
-
-	i = 1;
-	while (i < par->argc)
-	{
-		if (!read_argv(argv, i, par))
-		{
-			free(a);
-			return (0);
-		}
-		a[i - 1] = (int)par->nb;
-		ft_lstadd_back_p(list_a, ft_lstnew_p((int)par->nb));
-		if (!check_double(i, a))
-		{
-			free(a);
-			return (0);
-		}
-		par->len++;
-		i++;
-	}
-	return (1);
-}
-
-int check_top_bottom(p_list **lst, t_var *par)
-{
-	int count;
-	int i;
-	p_list *tmp;
-
-	count = 0;
-	i = 0;
-	tmp = (*lst);
-	while (tmp != NULL)
-	{
-		if (tmp->order == par->next)
-			count = i;
-		i++;
-		tmp = tmp->next;
-	}
-	return (count);
 }
 
 int main(int argc, char **argv)
@@ -438,30 +61,20 @@ int main(int argc, char **argv)
 		free(a);
 		par.max = par.len;
 		par.mid = par.max / 2 + par.next;
-
 		from_A_to_B(&list_a, &list_b, &par);
 		par.flag++;
-		//print_list(&list_a, &list_b);
 		par.size_b = ft_lstsize_p(list_b);
 		int c;
 		c = 1;
 		while (par.size_b > 3)
 		{
 			par.max = ft_find_order(&list_b, &par);
-			//par.max = ft_lstsize_p(list_b);
 			par.mid = (par.max - par.next) / 2 + par.next;
 			from_B_to_A(&list_a, &list_b, &par, c);
 			par.size_b = ft_lstsize_p(list_b);
-			//par.flag++;
-			//print_list(&list_a, &list_b);
 			c++;
 		}
 		par.flag = c;
-		//print_list(&list_a, &list_b);
-//		if (par.size_b == 4)
-//		{
-//
-//		}
 		if (par.size_b == 3)
 		{
 			while (list_b->order != par.next)
@@ -494,9 +107,7 @@ int main(int argc, char **argv)
 			else
 			{
 				ft_pa(&list_a, &list_b);
-				//list_a->flag++;
 				ft_pa(&list_a, &list_b);
-				//list_a->flag++;
 				par.size_b -= 2;
 			}
 		}
@@ -509,10 +120,7 @@ int main(int argc, char **argv)
 				par.next++;
 			}
 			else
-			{
 				ft_pa(&list_a, &list_b);
-				//list_a->flag++;
-			}
 		}
 		if (list_a->next->order == par.next)
 		{
@@ -539,28 +147,13 @@ int main(int argc, char **argv)
 				break;
 			par.flag--;
 		}
-		//print_list(&list_a, &list_b);
 		int k = 0;
 		int i = 0;
 		while (!(if_sort_list(&list_a) && list_b == NULL))
 		{
-			//print_list(&list_a, &list_b);
 			par.size_b = ft_lstsize_p(list_b);
-//			while (par.size_b > 3)
-//			{
-//				par.max = ft_find_order(&list_b, &par);
-//				par.mid = (par.max - par.next) / 2 + par.next;
-//				from_B_to_A(&list_a, &list_b, &par);
-//				par.size_b = ft_lstsize_p(list_b);
-//				par.flag++;
-//			}
-			c = 1;
-//			while (list_b != NULL)
-//			{
 				if (par.flag == 0)
 				{
-					//par.flag++;
-					//print_list(&list_a, &list_b);
 					c = 1;
 					par.size_b = ft_lstsize_p(list_b);
 					while (par.size_b > 3 && list_b != NULL)
@@ -569,7 +162,6 @@ int main(int argc, char **argv)
 						par.mid = (par.max - par.next) / 2 + par.next;
 						from_B_to_A(&list_a, &list_b, &par, c);
 						par.size_b = ft_lstsize_p(list_b);
-						//par.flag++;
 						c++;
 					}
 					par.flag = c;
@@ -603,9 +195,7 @@ int main(int argc, char **argv)
 						} else
 						{
 							ft_pa(&list_a, &list_b);
-							//list_a->flag++;
 							ft_pa(&list_a, &list_b);
-							//list_a->flag++;
 							par.size_b -= 2;
 						}
 					}
@@ -616,11 +206,9 @@ int main(int argc, char **argv)
 							ft_pa(&list_a, &list_b);
 							ft_ra(&list_a);
 							par.next++;
-						} else
-						{
-							ft_pa(&list_a, &list_b);
-							//list_a->flag++;
 						}
+						else
+							ft_pa(&list_a, &list_b);
 					}
 					if (list_a->next->order == par.next)
 					{
@@ -648,9 +236,6 @@ int main(int argc, char **argv)
 						par.flag--;
 					}
 				}
-//				else
-//					break;
-//			}
 			par.size_b = ft_lstsize_p(list_b);
 			while (par.size_b > 3)
 			{
@@ -680,7 +265,6 @@ int main(int argc, char **argv)
 					par.size_b--;
 				}
 			}
-
 			if (list_a->next->order == par.next)
 			{
 				ft_sa(&list_a);
@@ -692,7 +276,6 @@ int main(int argc, char **argv)
 				ft_ra(&list_a);
 				par.next++;
 			}
-
 			if (par.size_b == 3)
 			{
 				while (list_b->order != par.next)
@@ -725,9 +308,7 @@ int main(int argc, char **argv)
 				else
 				{
 					ft_pa(&list_a, &list_b);
-					//list_a->flag++;
 					ft_pa(&list_a, &list_b);
-					//list_a->flag++;
 					par.size_b -= 2;
 				}
 			}
@@ -740,10 +321,7 @@ int main(int argc, char **argv)
 					par.next++;
 				}
 				else
-				{
 					ft_pa(&list_a, &list_b);
-					//list_a->flag++;
-				}
 			}
 			if (list_a->next->order == par.next)
 			{
@@ -756,17 +334,13 @@ int main(int argc, char **argv)
 				ft_ra(&list_a);
 				par.next++;
 			}
-			//print_list(&list_a, &list_b);
-
 			if (if_sort_list(&list_a))
 			{
-				//print_list(&list_a, &list_b);
 				return (0);
 			}
 			par.c = 0;
 			while (par.flag >= 0)
 			{
-				//par.flag--;
 				while ((list_a->flag == par.flag) && list_a->order != 1)
 				{
 					ft_pb(&list_a, &list_b);
@@ -777,6 +351,5 @@ int main(int argc, char **argv)
 				par.flag--;
 			}
 		}
-		//print_list(&list_a, &list_b);
 	}
 }

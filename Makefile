@@ -1,4 +1,4 @@
-SRCS = main.c operation.c
+SRCS = main.c operation_a.c operation_b.c operation_both.c
 
 OBJS = ${SRCS:.c=.o}
 

@@ -7,8 +7,21 @@ typedef struct s_push_list
 {
 	int 				value;
 	int					flag;
+	int 				order;
 	struct s_push_list	*next;
 }			p_list;
+
+typedef struct s_variable
+{
+	int len;
+	int mid;
+	int flag;
+	int max;
+	int next;
+	int c;
+	int size_b;
+}				t_var;
+
 
 void ft_pb(p_list **head_a, p_list **head_b);
 void ft_pa(p_list **head_a, p_list **head_b);

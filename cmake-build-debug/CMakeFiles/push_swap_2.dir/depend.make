@@ -17,7 +17,15 @@ CMakeFiles/push_swap_2.dir/main.c.o: ../libft.h
 CMakeFiles/push_swap_2.dir/main.c.o: ../main.c
 CMakeFiles/push_swap_2.dir/main.c.o: ../push_swap.h
 
-CMakeFiles/push_swap_2.dir/operation.c.o: ../libft.h
-CMakeFiles/push_swap_2.dir/operation.c.o: ../operation.c
-CMakeFiles/push_swap_2.dir/operation.c.o: ../push_swap.h
+CMakeFiles/push_swap_2.dir/operation_a.c.o: ../libft.h
+CMakeFiles/push_swap_2.dir/operation_a.c.o: ../operation_a.c
+CMakeFiles/push_swap_2.dir/operation_a.c.o: ../push_swap.h
+
+CMakeFiles/push_swap_2.dir/operation_b.c.o: ../libft.h
+CMakeFiles/push_swap_2.dir/operation_b.c.o: ../operation_b.c
+CMakeFiles/push_swap_2.dir/operation_b.c.o: ../push_swap.h
+
+CMakeFiles/push_swap_2.dir/operation_both.c.o: ../libft.h
+CMakeFiles/push_swap_2.dir/operation_both.c.o: ../operation_both.c
+CMakeFiles/push_swap_2.dir/operation_both.c.o: ../push_swap.h
 

@@ -277,32 +277,86 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/main.c.s
 .PHONY : main.c.s
 
-operation.o: operation.c.o
+operation_a.o: operation_a.c.o
 
-.PHONY : operation.o
+.PHONY : operation_a.o
 
 # target to build an object file
-operation.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation.c.o
-.PHONY : operation.c.o
+operation_a.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_a.c.o
+.PHONY : operation_a.c.o
 
-operation.i: operation.c.i
+operation_a.i: operation_a.c.i
 
-.PHONY : operation.i
+.PHONY : operation_a.i
 
 # target to preprocess a source file
-operation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation.c.i
-.PHONY : operation.c.i
+operation_a.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_a.c.i
+.PHONY : operation_a.c.i
 
-operation.s: operation.c.s
+operation_a.s: operation_a.c.s
 
-.PHONY : operation.s
+.PHONY : operation_a.s
 
 # target to generate assembly for a file
-operation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation.c.s
-.PHONY : operation.c.s
+operation_a.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_a.c.s
+.PHONY : operation_a.c.s
+
+operation_b.o: operation_b.c.o
+
+.PHONY : operation_b.o
+
+# target to build an object file
+operation_b.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_b.c.o
+.PHONY : operation_b.c.o
+
+operation_b.i: operation_b.c.i
+
+.PHONY : operation_b.i
+
+# target to preprocess a source file
+operation_b.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_b.c.i
+.PHONY : operation_b.c.i
+
+operation_b.s: operation_b.c.s
+
+.PHONY : operation_b.s
+
+# target to generate assembly for a file
+operation_b.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_b.c.s
+.PHONY : operation_b.c.s
+
+operation_both.o: operation_both.c.o
+
+.PHONY : operation_both.o
+
+# target to build an object file
+operation_both.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_both.c.o
+.PHONY : operation_both.c.o
+
+operation_both.i: operation_both.c.i
+
+.PHONY : operation_both.i
+
+# target to preprocess a source file
+operation_both.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_both.c.i
+.PHONY : operation_both.c.i
+
+operation_both.s: operation_both.c.s
+
+.PHONY : operation_both.s
+
+# target to generate assembly for a file
+operation_both.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_both.c.s
+.PHONY : operation_both.c.s
 
 # Help Target
 help:
@@ -328,9 +382,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... operation.o"
-	@echo "... operation.i"
-	@echo "... operation.s"
+	@echo "... operation_a.o"
+	@echo "... operation_a.i"
+	@echo "... operation_a.s"
+	@echo "... operation_b.o"
+	@echo "... operation_b.i"
+	@echo "... operation_b.s"
+	@echo "... operation_both.o"
+	@echo "... operation_both.i"
+	@echo "... operation_both.s"
 .PHONY : help
 
 

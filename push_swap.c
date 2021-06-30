@@ -49,14 +49,14 @@ void	ft_check_top_bottom(t_var *par, p_list **list_a, p_list **list_b)
 		k = check_top_bottom(list_b, par);
 		if (k <= par->size_b / 2)
 			while (i++ < k)
-				ft_rb(list_b);
+				ft_rb(list_b, 1);
 		else
 			while (i++ < par->size_b - k)
-				ft_rrb(list_b);
+				ft_rrb(list_b, 1);
 		if ((*list_b)->order == par->next)
 		{
-			ft_pa(list_a, list_b);
-			ft_ra(list_a);
+			ft_pa(list_a, list_b, 1);
+			ft_ra(list_a, 1);
 			par->next++;
 			par->size_b--;
 		}

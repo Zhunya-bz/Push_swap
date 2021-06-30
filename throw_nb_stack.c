@@ -26,11 +26,11 @@ void	from_A_to_B(p_list **head_a, p_list **head_b, t_var *par)
 		if ((*head_a)->order <= par->mid)
 		{
 			(*head_a)->flag++;
-			ft_pb(head_a, head_b);
+			ft_pb(head_a, head_b, 1);
 			i++;
 		}
 		else
-			ft_ra(head_a);
+			ft_ra(head_a, 1);
 	}
 }
 
@@ -61,18 +61,18 @@ void	from_B_to_A(p_list **head_a, p_list **head_b, t_var *par, int c)
 	{
 		if ((*head_b)->order >= par->mid)
 		{
-			ft_pa(head_a, head_b);
+			ft_pa(head_a, head_b, 1);
 			(*head_a)->flag = c;
 			i++;
 		}
 		else if ((*head_b)->order == par->next)
 		{
-			ft_pa(head_a, head_b);
-			ft_ra(head_a);
+			ft_pa(head_a, head_b, 1);
+			ft_ra(head_a, 1);
 			par->next++;
 		}
 		else
-			ft_rb(head_b);
+			ft_rb(head_b, 1);
 	}
 }
 

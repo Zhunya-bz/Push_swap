@@ -25,16 +25,17 @@ typedef struct s_variable
 	int argc;
 }				t_var;
 
-void	ft_pb(p_list **head_a, p_list **head_b);
-void	ft_pa(p_list **head_a, p_list **head_b);
-void	ft_sa(p_list **head_a);
-void	ft_sb(p_list **head_b);
-void	ft_ra(p_list **head_a);
-void	ft_rb(p_list **head_b);
-void	ft_rr(p_list **head_a, p_list **head_b);
-void	ft_rra(p_list **head_a);
-void	ft_rrb(p_list **head_b);
-void	ft_rrr(p_list **head_a, p_list **head_b);
+void	ft_pb(p_list **head_a, p_list **head_b, int flag);
+void	ft_pa(p_list **head_a, p_list **head_b, int flag);
+void	ft_sa(p_list **head_a, int flag);
+void	ft_sb(p_list **head_b, int flag);
+void	ft_ss(p_list **head_a, p_list **head_b, int flag);
+void	ft_ra(p_list **head_a, int flag);
+void	ft_rb(p_list **head_b, int flag);
+void	ft_rr(p_list **head_a, p_list **head_b, int flag);
+void	ft_rra(p_list **head_a, int flag);
+void	ft_rrb(p_list **head_b, int flag);
+void	ft_rrr(p_list **head_a, p_list **head_b, int flag);
 void	ft_lstadd_back_p(p_list **lst, p_list *new);
 p_list	*ft_lstlast_p(p_list *lst);
 int		ft_lstsize_p(p_list *lst);

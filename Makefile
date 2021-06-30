@@ -3,7 +3,9 @@ SRCS = operation_a.c operation_b.c operation_both.c \
 		check_arg.c check_arg_2.c check_b.c \
 		throw_nb_stack.c ft_sort.c \
 		main.c \
-		push_swap.c
+		push_swap.c \
+		#checker.c \
+		get_next_line.c
 
 OBJS = ${SRCS:.c=.o}
 
@@ -15,7 +17,7 @@ CC = gcc
 
 CFLAGS = -Wall -Wextra -Werror
 
-HEADER = ./libpush.h ./libft.h
+HEADER = ./push_swap.h ./libft.h
 
 LIB_DIR = ./libft
 

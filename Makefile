@@ -1,4 +1,7 @@
-SRCS = main.c operation_a.c operation_b.c operation_both.c libft_lst.c
+SRCS = operation_a.c operation_b.c operation_both.c \
+		libft_lst.c read_arg.c check_arg.c \
+		throw_nb_stack.c ft_sort.c \
+		main.c
 
 OBJS = ${SRCS:.c=.o}
 

@@ -142,6 +142,60 @@ push_swap_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/build
 .PHONY : push_swap_2/fast
 
+check_arg.o: check_arg.c.o
+
+.PHONY : check_arg.o
+
+# target to build an object file
+check_arg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/check_arg.c.o
+.PHONY : check_arg.c.o
+
+check_arg.i: check_arg.c.i
+
+.PHONY : check_arg.i
+
+# target to preprocess a source file
+check_arg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/check_arg.c.i
+.PHONY : check_arg.c.i
+
+check_arg.s: check_arg.c.s
+
+.PHONY : check_arg.s
+
+# target to generate assembly for a file
+check_arg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/check_arg.c.s
+.PHONY : check_arg.c.s
+
+ft_sort.o: ft_sort.c.o
+
+.PHONY : ft_sort.o
+
+# target to build an object file
+ft_sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/ft_sort.c.o
+.PHONY : ft_sort.c.o
+
+ft_sort.i: ft_sort.c.i
+
+.PHONY : ft_sort.i
+
+# target to preprocess a source file
+ft_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/ft_sort.c.i
+.PHONY : ft_sort.c.i
+
+ft_sort.s: ft_sort.c.s
+
+.PHONY : ft_sort.s
+
+# target to generate assembly for a file
+ft_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/ft_sort.c.s
+.PHONY : ft_sort.c.s
+
 libft/ft_bzero.o: libft/ft_bzero.c.o
 
 .PHONY : libft/ft_bzero.o
@@ -304,6 +358,33 @@ libft/ft_substr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft/ft_substr.c.s
 .PHONY : libft/ft_substr.c.s
 
+libft_lst.o: libft_lst.c.o
+
+.PHONY : libft_lst.o
+
+# target to build an object file
+libft_lst.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft_lst.c.o
+.PHONY : libft_lst.c.o
+
+libft_lst.i: libft_lst.c.i
+
+.PHONY : libft_lst.i
+
+# target to preprocess a source file
+libft_lst.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft_lst.c.i
+.PHONY : libft_lst.c.i
+
+libft_lst.s: libft_lst.c.s
+
+.PHONY : libft_lst.s
+
+# target to generate assembly for a file
+libft_lst.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/libft_lst.c.s
+.PHONY : libft_lst.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -412,6 +493,60 @@ operation_both.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_both.c.s
 .PHONY : operation_both.c.s
 
+read_arg.o: read_arg.c.o
+
+.PHONY : read_arg.o
+
+# target to build an object file
+read_arg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/read_arg.c.o
+.PHONY : read_arg.c.o
+
+read_arg.i: read_arg.c.i
+
+.PHONY : read_arg.i
+
+# target to preprocess a source file
+read_arg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/read_arg.c.i
+.PHONY : read_arg.c.i
+
+read_arg.s: read_arg.c.s
+
+.PHONY : read_arg.s
+
+# target to generate assembly for a file
+read_arg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/read_arg.c.s
+.PHONY : read_arg.c.s
+
+throw_nb_stack.o: throw_nb_stack.c.o
+
+.PHONY : throw_nb_stack.o
+
+# target to build an object file
+throw_nb_stack.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/throw_nb_stack.c.o
+.PHONY : throw_nb_stack.c.o
+
+throw_nb_stack.i: throw_nb_stack.c.i
+
+.PHONY : throw_nb_stack.i
+
+# target to preprocess a source file
+throw_nb_stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/throw_nb_stack.c.i
+.PHONY : throw_nb_stack.c.i
+
+throw_nb_stack.s: throw_nb_stack.c.s
+
+.PHONY : throw_nb_stack.s
+
+# target to generate assembly for a file
+throw_nb_stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/throw_nb_stack.c.s
+.PHONY : throw_nb_stack.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -421,6 +556,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... push_swap_2"
+	@echo "... check_arg.o"
+	@echo "... check_arg.i"
+	@echo "... check_arg.s"
+	@echo "... ft_sort.o"
+	@echo "... ft_sort.i"
+	@echo "... ft_sort.s"
 	@echo "... libft/ft_bzero.o"
 	@echo "... libft/ft_bzero.i"
 	@echo "... libft/ft_bzero.s"
@@ -439,6 +580,9 @@ help:
 	@echo "... libft/ft_substr.o"
 	@echo "... libft/ft_substr.i"
 	@echo "... libft/ft_substr.s"
+	@echo "... libft_lst.o"
+	@echo "... libft_lst.i"
+	@echo "... libft_lst.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -451,6 +595,12 @@ help:
 	@echo "... operation_both.o"
 	@echo "... operation_both.i"
 	@echo "... operation_both.s"
+	@echo "... read_arg.o"
+	@echo "... read_arg.i"
+	@echo "... read_arg.s"
+	@echo "... throw_nb_stack.o"
+	@echo "... throw_nb_stack.i"
+	@echo "... throw_nb_stack.s"
 .PHONY : help
 
 

@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/check_arg.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/ft_sort.c">
+			<Option target="push_swap_2"/>
+		</Unit>
 		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/libft/ft_bzero.c">
 			<Option target="push_swap_2"/>
 		</Unit>
@@ -96,6 +102,9 @@
 		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/libft/ft_substr.c">
 			<Option target="push_swap_2"/>
 		</Unit>
+		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/libft_lst.c">
+			<Option target="push_swap_2"/>
+		</Unit>
 		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/main.c">
 			<Option target="push_swap_2"/>
 		</Unit>
@@ -106,6 +115,12 @@
 			<Option target="push_swap_2"/>
 		</Unit>
 		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/operation_both.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/read_arg.c">
+			<Option target="push_swap_2"/>
+		</Unit>
+		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/throw_nb_stack.c">
 			<Option target="push_swap_2"/>
 		</Unit>
 		<Unit filename="/Users/saltmer/CLionProjects/push_swap_2/CMakeLists.txt">

@@ -206,6 +206,71 @@ CMakeFiles/push_swap_2.dir/libft/ft_substr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_2.dir/libft/ft_substr.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/saltmer/CLionProjects/push_swap_2/libft/ft_substr.c -o CMakeFiles/push_swap_2.dir/libft/ft_substr.c.s
 
+CMakeFiles/push_swap_2.dir/ft_sort.c.o: CMakeFiles/push_swap_2.dir/flags.make
+CMakeFiles/push_swap_2.dir/ft_sort.c.o: ../ft_sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap_2.dir/ft_sort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_2.dir/ft_sort.c.o -c /Users/saltmer/CLionProjects/push_swap_2/ft_sort.c
+
+CMakeFiles/push_swap_2.dir/ft_sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_2.dir/ft_sort.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/saltmer/CLionProjects/push_swap_2/ft_sort.c > CMakeFiles/push_swap_2.dir/ft_sort.c.i
+
+CMakeFiles/push_swap_2.dir/ft_sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_2.dir/ft_sort.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/saltmer/CLionProjects/push_swap_2/ft_sort.c -o CMakeFiles/push_swap_2.dir/ft_sort.c.s
+
+CMakeFiles/push_swap_2.dir/read_arg.c.o: CMakeFiles/push_swap_2.dir/flags.make
+CMakeFiles/push_swap_2.dir/read_arg.c.o: ../read_arg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap_2.dir/read_arg.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_2.dir/read_arg.c.o -c /Users/saltmer/CLionProjects/push_swap_2/read_arg.c
+
+CMakeFiles/push_swap_2.dir/read_arg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_2.dir/read_arg.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/saltmer/CLionProjects/push_swap_2/read_arg.c > CMakeFiles/push_swap_2.dir/read_arg.c.i
+
+CMakeFiles/push_swap_2.dir/read_arg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_2.dir/read_arg.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/saltmer/CLionProjects/push_swap_2/read_arg.c -o CMakeFiles/push_swap_2.dir/read_arg.c.s
+
+CMakeFiles/push_swap_2.dir/check_arg.c.o: CMakeFiles/push_swap_2.dir/flags.make
+CMakeFiles/push_swap_2.dir/check_arg.c.o: ../check_arg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap_2.dir/check_arg.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_2.dir/check_arg.c.o -c /Users/saltmer/CLionProjects/push_swap_2/check_arg.c
+
+CMakeFiles/push_swap_2.dir/check_arg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_2.dir/check_arg.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/saltmer/CLionProjects/push_swap_2/check_arg.c > CMakeFiles/push_swap_2.dir/check_arg.c.i
+
+CMakeFiles/push_swap_2.dir/check_arg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_2.dir/check_arg.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/saltmer/CLionProjects/push_swap_2/check_arg.c -o CMakeFiles/push_swap_2.dir/check_arg.c.s
+
+CMakeFiles/push_swap_2.dir/libft_lst.c.o: CMakeFiles/push_swap_2.dir/flags.make
+CMakeFiles/push_swap_2.dir/libft_lst.c.o: ../libft_lst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/push_swap_2.dir/libft_lst.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_2.dir/libft_lst.c.o -c /Users/saltmer/CLionProjects/push_swap_2/libft_lst.c
+
+CMakeFiles/push_swap_2.dir/libft_lst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_2.dir/libft_lst.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/saltmer/CLionProjects/push_swap_2/libft_lst.c > CMakeFiles/push_swap_2.dir/libft_lst.c.i
+
+CMakeFiles/push_swap_2.dir/libft_lst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_2.dir/libft_lst.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/saltmer/CLionProjects/push_swap_2/libft_lst.c -o CMakeFiles/push_swap_2.dir/libft_lst.c.s
+
+CMakeFiles/push_swap_2.dir/throw_nb_stack.c.o: CMakeFiles/push_swap_2.dir/flags.make
+CMakeFiles/push_swap_2.dir/throw_nb_stack.c.o: ../throw_nb_stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/push_swap_2.dir/throw_nb_stack.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap_2.dir/throw_nb_stack.c.o -c /Users/saltmer/CLionProjects/push_swap_2/throw_nb_stack.c
+
+CMakeFiles/push_swap_2.dir/throw_nb_stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap_2.dir/throw_nb_stack.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/saltmer/CLionProjects/push_swap_2/throw_nb_stack.c > CMakeFiles/push_swap_2.dir/throw_nb_stack.c.i
+
+CMakeFiles/push_swap_2.dir/throw_nb_stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap_2.dir/throw_nb_stack.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/saltmer/CLionProjects/push_swap_2/throw_nb_stack.c -o CMakeFiles/push_swap_2.dir/throw_nb_stack.c.s
+
 # Object files for target push_swap_2
 push_swap_2_OBJECTS = \
 "CMakeFiles/push_swap_2.dir/main.c.o" \
@@ -217,7 +282,12 @@ push_swap_2_OBJECTS = \
 "CMakeFiles/push_swap_2.dir/operation_b.c.o" \
 "CMakeFiles/push_swap_2.dir/operation_both.c.o" \
 "CMakeFiles/push_swap_2.dir/libft/ft_split.c.o" \
-"CMakeFiles/push_swap_2.dir/libft/ft_substr.c.o"
+"CMakeFiles/push_swap_2.dir/libft/ft_substr.c.o" \
+"CMakeFiles/push_swap_2.dir/ft_sort.c.o" \
+"CMakeFiles/push_swap_2.dir/read_arg.c.o" \
+"CMakeFiles/push_swap_2.dir/check_arg.c.o" \
+"CMakeFiles/push_swap_2.dir/libft_lst.c.o" \
+"CMakeFiles/push_swap_2.dir/throw_nb_stack.c.o"
 
 # External object files for target push_swap_2
 push_swap_2_EXTERNAL_OBJECTS =
@@ -232,9 +302,14 @@ push_swap_2: CMakeFiles/push_swap_2.dir/operation_b.c.o
 push_swap_2: CMakeFiles/push_swap_2.dir/operation_both.c.o
 push_swap_2: CMakeFiles/push_swap_2.dir/libft/ft_split.c.o
 push_swap_2: CMakeFiles/push_swap_2.dir/libft/ft_substr.c.o
+push_swap_2: CMakeFiles/push_swap_2.dir/ft_sort.c.o
+push_swap_2: CMakeFiles/push_swap_2.dir/read_arg.c.o
+push_swap_2: CMakeFiles/push_swap_2.dir/check_arg.c.o
+push_swap_2: CMakeFiles/push_swap_2.dir/libft_lst.c.o
+push_swap_2: CMakeFiles/push_swap_2.dir/throw_nb_stack.c.o
 push_swap_2: CMakeFiles/push_swap_2.dir/build.make
 push_swap_2: CMakeFiles/push_swap_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable push_swap_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable push_swap_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

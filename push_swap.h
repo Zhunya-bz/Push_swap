@@ -20,6 +20,7 @@ typedef struct s_variable
 	int next;
 	int c;
 	int size_b;
+	int size_a;
 	long nb;
 	int argc;
 }				t_var;
@@ -35,6 +36,7 @@ void	ft_rra(p_list **head_a);
 void	ft_rrb(p_list **head_b);
 void	ft_rrr(p_list **head_a, p_list **head_b);
 void	ft_lstadd_back_p(p_list **lst, p_list *new);
+p_list	*ft_lstlast_p(p_list *lst);
 int		ft_lstsize_p(p_list *lst);
 p_list	*ft_lstnew_p(int content);
 int		if_sort(int *a, int i, int len);

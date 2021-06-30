@@ -1,5 +1,19 @@
 #include "push_swap.h"
 
+p_list	*ft_lstlast_p(p_list *lst)
+{
+	p_list	*copy_lst;
+
+	copy_lst = lst;
+	if (!lst)
+		return (0);
+	while (copy_lst->next != NULL)
+	{
+		copy_lst = copy_lst->next;
+	}
+	return (copy_lst);
+}
+
 p_list	*ft_lstnew_p(int content)
 {
 	p_list	*new_el;

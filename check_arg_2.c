@@ -9,7 +9,7 @@ int	check_2_nb(t_var *par, p_list **list_a)
 		{
 			if ((*list_a)->order != par->next)
 			{
-				ft_ra(list_a);
+				ft_ra(list_a, 1);
 				par->next++;
 			}
 		}

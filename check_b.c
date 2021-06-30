@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-void check_size_b_3(t_var *par, p_list **list_a, p_list **list_b)
+void	check_size_b_3(t_var *par, p_list **list_a, p_list **list_b)
 {
 	if (par->size_b == 3)
 	{
@@ -16,7 +16,7 @@ void check_size_b_3(t_var *par, p_list **list_a, p_list **list_b)
 	}
 }
 
-void check_size_b_2(t_var *par, p_list **list_a, p_list **list_b)
+void	check_size_b_2(t_var *par, p_list **list_a, p_list **list_b)
 {
 	if (par->size_b == 2)
 	{
@@ -44,7 +44,7 @@ void check_size_b_2(t_var *par, p_list **list_a, p_list **list_b)
 	}
 }
 
-void check_first_2_A(t_var *par, p_list **list_a)
+void	check_first_2_A(t_var *par, p_list **list_a)
 {
 	if ((*list_a)->next->order == par->next)
 	{
@@ -59,7 +59,7 @@ void check_first_2_A(t_var *par, p_list **list_a)
 	}
 }
 
-void check_size_b_1(t_var *par, p_list **list_a, p_list **list_b)
+void	check_size_b_1(t_var *par, p_list **list_a, p_list **list_b)
 {
 	if (par->size_b == 1)
 	{
@@ -75,7 +75,7 @@ void check_size_b_1(t_var *par, p_list **list_a, p_list **list_b)
 	check_first_2_A(par, list_a);
 }
 
-void check_flags_stack(t_var *par, p_list **list_a, p_list **list_b)
+void	check_flags_stack(t_var *par, p_list **list_a, p_list **list_b)
 {
 	par->c = 0;
 	while (par->flag >= 0)
@@ -86,7 +86,7 @@ void check_flags_stack(t_var *par, p_list **list_a, p_list **list_b)
 			par->c = 1;
 		}
 		if (par->c == 1)
-			break;
+			break ;
 		par->flag--;
 	}
 }

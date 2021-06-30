@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/saltmer/CLionProjects/push_swap_2/check_arg.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/check_arg.c.o"
+  "/Users/saltmer/CLionProjects/push_swap_2/check_arg_2.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/check_arg_2.c.o"
+  "/Users/saltmer/CLionProjects/push_swap_2/check_b.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/check_b.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/ft_sort.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/ft_sort.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/libft/ft_bzero.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/libft/ft_bzero.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/libft/ft_calloc.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/libft/ft_calloc.c.o"
@@ -17,6 +19,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/saltmer/CLionProjects/push_swap_2/operation_a.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/operation_a.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/operation_b.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/operation_b.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/operation_both.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/operation_both.c.o"
+  "/Users/saltmer/CLionProjects/push_swap_2/push_swap.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/push_swap.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/read_arg.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/read_arg.c.o"
   "/Users/saltmer/CLionProjects/push_swap_2/throw_nb_stack.c" "/Users/saltmer/CLionProjects/push_swap_2/cmake-build-debug/CMakeFiles/push_swap_2.dir/throw_nb_stack.c.o"
   )

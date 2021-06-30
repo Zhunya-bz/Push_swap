@@ -5,6 +5,14 @@ CMakeFiles/push_swap_2.dir/check_arg.c.o: ../check_arg.c
 CMakeFiles/push_swap_2.dir/check_arg.c.o: ../libft.h
 CMakeFiles/push_swap_2.dir/check_arg.c.o: ../push_swap.h
 
+CMakeFiles/push_swap_2.dir/check_arg_2.c.o: ../check_arg_2.c
+CMakeFiles/push_swap_2.dir/check_arg_2.c.o: ../libft.h
+CMakeFiles/push_swap_2.dir/check_arg_2.c.o: ../push_swap.h
+
+CMakeFiles/push_swap_2.dir/check_b.c.o: ../check_b.c
+CMakeFiles/push_swap_2.dir/check_b.c.o: ../libft.h
+CMakeFiles/push_swap_2.dir/check_b.c.o: ../push_swap.h
+
 CMakeFiles/push_swap_2.dir/ft_sort.c.o: ../ft_sort.c
 CMakeFiles/push_swap_2.dir/ft_sort.c.o: ../libft.h
 CMakeFiles/push_swap_2.dir/ft_sort.c.o: ../push_swap.h
@@ -46,6 +54,10 @@ CMakeFiles/push_swap_2.dir/operation_b.c.o: ../push_swap.h
 CMakeFiles/push_swap_2.dir/operation_both.c.o: ../libft.h
 CMakeFiles/push_swap_2.dir/operation_both.c.o: ../operation_both.c
 CMakeFiles/push_swap_2.dir/operation_both.c.o: ../push_swap.h
+
+CMakeFiles/push_swap_2.dir/push_swap.c.o: ../libft.h
+CMakeFiles/push_swap_2.dir/push_swap.c.o: ../push_swap.c
+CMakeFiles/push_swap_2.dir/push_swap.c.o: ../push_swap.h
 
 CMakeFiles/push_swap_2.dir/read_arg.c.o: ../libft.h
 CMakeFiles/push_swap_2.dir/read_arg.c.o: ../push_swap.h

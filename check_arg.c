@@ -1,8 +1,8 @@
 #include "push_swap.h"
 
-static int check_double(int i, int *a)
+static int	check_double(int i, int *a)
 {
-	int k;
+	int	k;
 
 	k = 0;
 	while (k < i - 1)
@@ -17,10 +17,10 @@ static int check_double(int i, int *a)
 	return (1);
 }
 
-int check_string(char **argv, t_var *par, p_list **list_a, int *a)
+int	check_string(char **argv, t_var *par, p_list **list_a, int *a)
 {
-	char **argv2;
-	int j;
+	char	**argv2;
+	int		j;
 
 	j = 0;
 	argv2 = ft_split(argv[1], ' ');
@@ -44,9 +44,9 @@ int check_string(char **argv, t_var *par, p_list **list_a, int *a)
 	return (1);
 }
 
-int check_argument(char **argv, t_var *par, p_list **list_a, int *a)
+int	check_argument(char **argv, t_var *par, p_list **list_a, int *a)
 {
-	int i;
+	int	i;
 
 	i = 1;
 	while (i < par->argc)
@@ -69,11 +69,11 @@ int check_argument(char **argv, t_var *par, p_list **list_a, int *a)
 	return (1);
 }
 
-int check_top_bottom(p_list **lst, t_var *par)
+int	check_top_bottom(p_list **lst, t_var *par)
 {
-	int count;
-	int i;
-	p_list *tmp;
+	int		count;
+	int		i;
+	p_list	*tmp;
 
 	count = 0;
 	i = 0;

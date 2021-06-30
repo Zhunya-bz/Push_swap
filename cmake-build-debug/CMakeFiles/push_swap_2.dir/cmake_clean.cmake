@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/push_swap_2.dir/check_arg.c.o"
+  "CMakeFiles/push_swap_2.dir/check_arg_2.c.o"
+  "CMakeFiles/push_swap_2.dir/check_b.c.o"
   "CMakeFiles/push_swap_2.dir/ft_sort.c.o"
   "CMakeFiles/push_swap_2.dir/libft/ft_bzero.c.o"
   "CMakeFiles/push_swap_2.dir/libft/ft_calloc.c.o"
@@ -12,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap_2.dir/operation_a.c.o"
   "CMakeFiles/push_swap_2.dir/operation_b.c.o"
   "CMakeFiles/push_swap_2.dir/operation_both.c.o"
+  "CMakeFiles/push_swap_2.dir/push_swap.c.o"
   "CMakeFiles/push_swap_2.dir/read_arg.c.o"
   "CMakeFiles/push_swap_2.dir/throw_nb_stack.c.o"
   "push_swap_2"

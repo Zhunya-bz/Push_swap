@@ -11,7 +11,7 @@ void	fill_param(t_var *par, p_list **list_a, p_list **list_b, int argc)
 	par->argc = argc;
 }
 
-void first_step(t_var *par, p_list **list_a, p_list **list_b)
+void	first_step(t_var *par, p_list **list_a, p_list **list_b)
 {
 	par->max = par->len;
 	par->mid = par->max / 2 + par->next;
@@ -20,9 +20,9 @@ void first_step(t_var *par, p_list **list_a, p_list **list_b)
 	par->size_b = ft_lstsize_p(*list_b);
 }
 
-void throw_stack_B(t_var *par, p_list **list_a, p_list **list_b)
+void	throw_stack_B(t_var *par, p_list **list_a, p_list **list_b)
 {
-	int c;
+	int	c;
 
 	c = 1;
 	par->size_b = ft_lstsize_p(*list_b);
@@ -37,10 +37,10 @@ void throw_stack_B(t_var *par, p_list **list_a, p_list **list_b)
 	par->flag = c;
 }
 
-void ft_check_top_bottom(t_var *par, p_list **list_a, p_list **list_b)
+void	ft_check_top_bottom(t_var *par, p_list **list_a, p_list **list_b)
 {
-	int i;
-	int k;
+	int	i;
+	int	k;
 
 	par->size_b = ft_lstsize_p(*list_b);
 	while (par->size_b > 3)
@@ -62,7 +62,8 @@ void ft_check_top_bottom(t_var *par, p_list **list_a, p_list **list_b)
 		}
 	}
 }
-int general_cycle(t_var *par, p_list **list_a, p_list **list_b)
+
+int	general_cycle(t_var *par, p_list **list_a, p_list **list_b)
 {
 	while (!(if_sort_list(list_a) && list_b == NULL))
 	{
@@ -78,7 +79,8 @@ int general_cycle(t_var *par, p_list **list_a, p_list **list_b)
 			check_flags_stack(par, list_a, list_b);
 		}
 		ft_check_top_bottom(par, list_a, list_b);
-		check_first_2_A(par, list_a);check_size_b_3(par, list_a, list_b);
+		check_first_2_A(par, list_a);
+		check_size_b_3(par, list_a, list_b);
 		check_size_b_2(par, list_a, list_b);
 		check_size_b_1(par, list_a, list_b);
 		if (if_sort_list(list_a))
@@ -87,4 +89,3 @@ int general_cycle(t_var *par, p_list **list_a, p_list **list_b)
 	}
 	return (1);
 }
-

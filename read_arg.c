@@ -29,11 +29,9 @@ static long	ft_atoi_long(char *str)
 	return (sign * res);
 }
 
-
-
-int read_argv(char **argv, int i, t_var *par)
+int	read_argv(char **argv, int i, t_var *par)
 {
-	int j;
+	int	j;
 
 	j = 0;
 	while (argv[i][j])

@@ -1,8 +1,8 @@
 #include "push_swap.h"
 
-void print_list(p_list **lst1, p_list **lst2) /// !!! DELETE !!!
+void	print_list(p_list **lst1, p_list **lst2)
 {
-	p_list *tmp;
+	p_list	*tmp;
 
 	tmp = (*lst1);
 	printf("A:\n");

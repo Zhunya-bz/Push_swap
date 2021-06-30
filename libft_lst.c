@@ -59,3 +59,20 @@ void	ft_lstadd_back_p(p_list **lst, p_list *new)
 		last_el->next = new;
 	}
 }
+
+void	clear_list(p_list **lst)
+{
+	p_list	*tmp;
+	p_list	*tmp2;
+
+	tmp = *lst;
+	while (tmp->next)
+	{
+		tmp2 = tmp;
+		tmp = tmp->next;
+		free(tmp2);
+	}
+	tmp = tmp->next;
+	free(tmp);
+	*lst = NULL;
+}

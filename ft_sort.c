@@ -1,8 +1,8 @@
 #include "push_swap.h"
 
-static void ft_swap(int *a, int *b)
+static void	ft_swap(int *a, int *b)
 {
-	int c;
+	int	c;
 
 	c = *a;
 	*a = *b;
@@ -11,9 +11,9 @@ static void ft_swap(int *a, int *b)
 
 static void	quick_sort(int *sort, int l, int len_n)
 {
-	int right;
-	int pivot;
-	int left;
+	int	right;
+	int	pivot;
+	int	left;
 
 	left = l;
 	right = len_n;
@@ -33,9 +33,9 @@ static void	quick_sort(int *sort, int l, int len_n)
 		quick_sort(sort, left, len_n);
 }
 
-int *ft_sorted(int *sort, int *a, int len)
+int	*ft_sorted(int *sort, int *a, int len)
 {
-	int i;
+	int	i;
 
 	sort = ft_calloc((len + 1), sizeof(int));
 	i = 0;
@@ -48,7 +48,7 @@ int *ft_sorted(int *sort, int *a, int len)
 	return (sort);
 }
 
-int if_sort(int *a, int i, int len)
+int	if_sort(int *a, int i, int len)
 {
 	while (a[i] < a[i + 1] && i < len - 1)
 		i++;
@@ -58,10 +58,10 @@ int if_sort(int *a, int i, int len)
 		return (1);
 }
 
-int if_sort_list(p_list **head_a)
+int	if_sort_list(p_list **head_a)
 {
-	p_list *tmp;
-	p_list *tmp2;
+	p_list	*tmp;
+	p_list	*tmp2;
 
 	tmp = (*head_a);
 	tmp2 = (*head_a)->next;

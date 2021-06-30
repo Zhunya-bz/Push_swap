@@ -169,6 +169,60 @@ check_arg.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/check_arg.c.s
 .PHONY : check_arg.c.s
 
+check_arg_2.o: check_arg_2.c.o
+
+.PHONY : check_arg_2.o
+
+# target to build an object file
+check_arg_2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/check_arg_2.c.o
+.PHONY : check_arg_2.c.o
+
+check_arg_2.i: check_arg_2.c.i
+
+.PHONY : check_arg_2.i
+
+# target to preprocess a source file
+check_arg_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/check_arg_2.c.i
+.PHONY : check_arg_2.c.i
+
+check_arg_2.s: check_arg_2.c.s
+
+.PHONY : check_arg_2.s
+
+# target to generate assembly for a file
+check_arg_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/check_arg_2.c.s
+.PHONY : check_arg_2.c.s
+
+check_b.o: check_b.c.o
+
+.PHONY : check_b.o
+
+# target to build an object file
+check_b.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/check_b.c.o
+.PHONY : check_b.c.o
+
+check_b.i: check_b.c.i
+
+.PHONY : check_b.i
+
+# target to preprocess a source file
+check_b.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/check_b.c.i
+.PHONY : check_b.c.i
+
+check_b.s: check_b.c.s
+
+.PHONY : check_b.s
+
+# target to generate assembly for a file
+check_b.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/check_b.c.s
+.PHONY : check_b.c.s
+
 ft_sort.o: ft_sort.c.o
 
 .PHONY : ft_sort.o
@@ -493,6 +547,33 @@ operation_both.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/operation_both.c.s
 .PHONY : operation_both.c.s
 
+push_swap.o: push_swap.c.o
+
+.PHONY : push_swap.o
+
+# target to build an object file
+push_swap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/push_swap.c.o
+.PHONY : push_swap.c.o
+
+push_swap.i: push_swap.c.i
+
+.PHONY : push_swap.i
+
+# target to preprocess a source file
+push_swap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/push_swap.c.i
+.PHONY : push_swap.c.i
+
+push_swap.s: push_swap.c.s
+
+.PHONY : push_swap.s
+
+# target to generate assembly for a file
+push_swap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap_2.dir/build.make CMakeFiles/push_swap_2.dir/push_swap.c.s
+.PHONY : push_swap.c.s
+
 read_arg.o: read_arg.c.o
 
 .PHONY : read_arg.o
@@ -559,6 +640,12 @@ help:
 	@echo "... check_arg.o"
 	@echo "... check_arg.i"
 	@echo "... check_arg.s"
+	@echo "... check_arg_2.o"
+	@echo "... check_arg_2.i"
+	@echo "... check_arg_2.s"
+	@echo "... check_b.o"
+	@echo "... check_b.i"
+	@echo "... check_b.s"
 	@echo "... ft_sort.o"
 	@echo "... ft_sort.i"
 	@echo "... ft_sort.s"
@@ -595,6 +682,9 @@ help:
 	@echo "... operation_both.o"
 	@echo "... operation_both.i"
 	@echo "... operation_both.s"
+	@echo "... push_swap.o"
+	@echo "... push_swap.i"
+	@echo "... push_swap.s"
 	@echo "... read_arg.o"
 	@echo "... read_arg.i"
 	@echo "... read_arg.s"

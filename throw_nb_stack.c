@@ -1,9 +1,9 @@
 #include "push_swap.h"
 
-void ft_order(p_list **head_a, int *sort)
+void	ft_order(p_list **head_a, int *sort)
 {
-	p_list *tmp;
-	int i;
+	p_list	*tmp;
+	int		i;
 
 	tmp = (*head_a);
 	while (tmp != NULL)
@@ -16,9 +16,9 @@ void ft_order(p_list **head_a, int *sort)
 	}
 }
 
-void from_A_to_B(p_list **head_a, p_list **head_b, t_var *par)
+void	from_A_to_B(p_list **head_a, p_list **head_b, t_var *par)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (i < par->mid)
@@ -36,8 +36,7 @@ void from_A_to_B(p_list **head_a, p_list **head_b, t_var *par)
 
 static int	find_count(int count, p_list **head_b, t_var *par)
 {
-	p_list *tmp;
-
+	p_list	*tmp;
 
 	tmp = (*head_b);
 	count = 0;
@@ -50,10 +49,10 @@ static int	find_count(int count, p_list **head_b, t_var *par)
 	return (count);
 }
 
-void from_B_to_A(p_list **head_a, p_list **head_b, t_var *par, int c)
+void	from_B_to_A(p_list **head_a, p_list **head_b, t_var *par, int c)
 {
-	int count;
-	int i;
+	int	count;
+	int	i;
 
 	i = 0;
 	count = 0;
@@ -77,9 +76,9 @@ void from_B_to_A(p_list **head_a, p_list **head_b, t_var *par, int c)
 	}
 }
 
-int ft_find_order(p_list **head_a, t_var *par)
+int	ft_find_order(p_list **head_a, t_var *par)
 {
-	p_list *tmp;
+	p_list	*tmp;
 
 	tmp = (*head_a)->next;
 	par->c = (*head_a)->order;

@@ -1,8 +1,8 @@
 #include "push_swap.h"
 
-void ft_pb(p_list **head_a, p_list **head_b)
+void	ft_pb(p_list **head_a, p_list **head_b)
 {
-	p_list *tmp;
+	p_list	*tmp;
 
 	tmp = (*head_a);
 	(*head_a) = (*head_a)->next;
@@ -11,10 +11,9 @@ void ft_pb(p_list **head_a, p_list **head_b)
 	ft_putstr_fd("pb\n", 1);
 }
 
-
-void ft_sb(p_list **head_b)
+void	ft_sb(p_list **head_b)
 {
-	p_list *tmp;
+	p_list	*tmp;
 
 	tmp = (*head_b);
 	(*head_b) = (*head_b)->next;
@@ -23,14 +22,14 @@ void ft_sb(p_list **head_b)
 	ft_putstr_fd("sb\n", 1);
 }
 
-void ft_rb(p_list **head_b)
+void	ft_rb(p_list **head_b)
 {
-	p_list *tmp;
-	p_list *tmp2;
-	p_list *tmp3;
+	p_list	*tmp;
+	p_list	*tmp2;
+	p_list	*tmp3;
 
 	tmp = (*head_b);
-	tmp2 =(*head_b);
+	tmp2 = (*head_b);
 	tmp3 = (*head_b)->next;
 	while (tmp2->next != NULL)
 	{
@@ -42,11 +41,11 @@ void ft_rb(p_list **head_b)
 	ft_putstr_fd("rb\n", 1);
 }
 
-void ft_rrb(p_list **head_b)
+void	ft_rrb(p_list **head_b)
 {
-	p_list *tmp;
-	p_list *tmp2;
-	p_list *tmp3;
+	p_list	*tmp;
+	p_list	*tmp2;
+	p_list	*tmp3;
 
 	tmp = (*head_b);
 	tmp2 = (*head_b);

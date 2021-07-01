@@ -1,5 +1,6 @@
 #include "../push_swap.h"
 #include "get_next_line.h"
+#include <stdio.h>
 
 static int	fun_comp(p_list **list_a, p_list **list_b, char *str)
 {
@@ -69,7 +70,6 @@ static void	general_f(p_list **list_a, p_list **list_b, char *str, int i)
 			if (!fun_comp(list_a, list_b, str))
 				if (!fun_errors(str))
 					break ;
-			free(str);
 		}
 		if (*list_b == NULL && if_sort_list(list_a))
 			printf("OK\n");

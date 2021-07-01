@@ -50,7 +50,6 @@ int	main(int argc, char **argv)
 			check_flags_stack(&par, &list_a, &list_b);
 			if (!general_cycle(&par, &list_a, &list_b))
 				break;
-			//clear_list(&list_a);
 			break ;
 		}
 	}

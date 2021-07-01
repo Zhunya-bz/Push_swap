@@ -42,16 +42,16 @@ int	argument(int argc, char **argv, t_var *par, p_list **list_a)
 	a = ft_calloc((2 * argc), (sizeof(int)));
 	if (!a)
 		return (0);
-	if (argc == 2)
-	{
-		if (!check_string(argv, par, list_a, a))
-			return (0);
-	}
-	else
-	{
-		if (!check_argument(argv, par, list_a, a))
-			return (0);
-	}
+//	if (argc == 2)
+//	{
+//		if (!check_string(argv, par, list_a, a))
+//			return (0);
+//	}
+//	else
+//	{
+	if (!check_argument(argv, par, list_a, a))
+		return (0);
+	//}
 	if (!check_sort(a, par, list_a))
 		return (0);
 	return (1);

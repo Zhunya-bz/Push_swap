@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/saltmer/CLionProjects/push_swap_2/ft_sort.c
+/Users/saltmer/CLionProjects/push_swap_2/check_arg.c
 push_swap.h
 /Users/saltmer/CLionProjects/push_swap_2/push_swap.h
-stdio.h
--
+
+/Users/saltmer/CLionProjects/push_swap_2/check_arg_2.c
+push_swap.h
+/Users/saltmer/CLionProjects/push_swap_2/push_swap.h
 
 /Users/saltmer/CLionProjects/push_swap_2/libft.h
 stdlib.h
@@ -23,10 +25,6 @@ string.h
 -
 errno.h
 -
-
-/Users/saltmer/CLionProjects/push_swap_2/main.c
-push_swap.h
-/Users/saltmer/CLionProjects/push_swap_2/push_swap.h
 
 /Users/saltmer/CLionProjects/push_swap_2/push_swap.h
 libft.h

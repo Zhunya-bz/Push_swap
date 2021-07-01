@@ -17,48 +17,49 @@ static int	check_double(int i, int *a)
 	return (1);
 }
 
-static void free_fun(char **argv2)
+static void free_fun(char **argv2, int j)
 {
-	int j;
-
-	j = 0;
-	while (argv2[j])
+	while (j >= 0)
 	{
 		free(argv2[j]);
-		j++;
+		j--;
 	}
 	free(argv2);
+	argv2 = NULL;
 }
 
-int	check_string(char **argv, t_var *par, p_list **list_a, int *a)
-{
-	char	**argv2;
-	int		j;
-
-	j = 0;
-	argv2 = ft_split(argv[1], ' ');
-	while (argv2[j])
-	{
-		if (!read_argv(argv2, j, par))
-		{
-			free(a);
-			free_fun(argv2);
-			return (0);
-		}
-		a[j] = (int)par->nb;
-		ft_lstadd_back_p(list_a, ft_lstnew_p((int)par->nb));
-		if (!check_double(j + 1, a))
-		{
-			free(a);
-			free_fun(argv2);
-			return (0);
-		}
-		par->len++;
-		j++;
-	}
-	free_fun(argv2);
-	return (1);
-}
+//int	check_string(char **argv, t_var *par, p_list **list_a, int *a)
+//{
+//	char	**argv2;
+//	int		j;
+//
+//	j = 0;
+//	argv2 = ft_split(argv[1], ' ');
+//	if (!argv2)
+//		return (0);
+//	while (argv2[j])
+//	{
+//		if (!read_argv(argv2, j, par))
+//		{
+//			free(a);
+//			free_fun(argv2, j);
+//			return (0);
+//		}
+//		a[j] = (int)par->nb;
+//		ft_lstadd_back_p(list_a, ft_lstnew_p((int)par->nb));
+//		if (!check_double(j + 1, a))
+//		{
+//			free(a);
+//			//free(argv2);
+//			free_fun(argv2, j);
+//			return (0);
+//		}
+//		par->len++;
+//		j++;
+//	}
+//	free_fun(argv2, j - 1);
+//	return (1);
+//}
 
 int	check_argument(char **argv, t_var *par, p_list **list_a, int *a)
 {

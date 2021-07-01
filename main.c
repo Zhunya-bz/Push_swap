@@ -1,4 +1,28 @@
 #include "push_swap.h"
+//#include <stdio.h>
+//void	print_list(p_list **lst1, p_list **lst2)
+//{
+//	p_list	*tmp;
+//
+//	tmp = (*lst1);
+//	printf("A:\n");
+//	while (tmp != NULL)
+//	{
+//		printf("value = %d   ", tmp->value);
+//		printf("order = %d   ", tmp->order);
+//		printf("flag = %d\n", tmp->flag);
+//		tmp = tmp->next;
+//	}
+//	tmp = (*lst2);
+//	printf("B:\n");
+//	while (tmp != NULL)
+//	{
+//		printf("value = %d   ", tmp->value);
+//		printf("order = %d   ", tmp->order);
+//		printf("flag = %d\n", tmp->flag);
+//		tmp = tmp->next;
+//	}
+//}
 
 static void	first_throw( t_var *par, p_list **list_a, p_list **list_b)
 {
@@ -22,11 +46,11 @@ int	main(int argc, char **argv)
 		{
 			first_throw(&par, &list_a, &list_b);
 			if (if_sort_list(&list_a))
-				break ;
+				break;
 			check_flags_stack(&par, &list_a, &list_b);
 			if (!general_cycle(&par, &list_a, &list_b))
-				break ;
-			clear_list(&list_a);
+				break;
+			//clear_list(&list_a);
 			break ;
 		}
 	}

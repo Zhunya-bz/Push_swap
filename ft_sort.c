@@ -57,7 +57,7 @@ int	if_sort(int *a, int i, int len)
 	else
 		return (1);
 }
-
+#include <stdio.h>
 int	if_sort_list(p_list **head_a)
 {
 	p_list	*tmp;
@@ -67,8 +67,12 @@ int	if_sort_list(p_list **head_a)
 	tmp2 = (*head_a)->next;
 	while (tmp->next != NULL)
 	{
+//		printf("Cycle\n");
+//		printf("%d %d\n", tmp->value, tmp2->value);
 		if (tmp->value < tmp2->value)
 		{
+//			printf("%d %d\n", tmp->value, tmp2->value);
+//			printf("da\n");
 			tmp = tmp->next;
 			tmp2 = tmp2->next;
 		}

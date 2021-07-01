@@ -17,6 +17,19 @@ static int	check_double(int i, int *a)
 	return (1);
 }
 
+static void free_fun(char **argv2)
+{
+	int j;
+
+	j = 0;
+	while (argv2[j])
+	{
+		free(argv2[j]);
+		j++;
+	}
+	free(argv2);
+}
+
 int	check_string(char **argv, t_var *par, p_list **list_a, int *a)
 {
 	char	**argv2;
@@ -29,6 +42,7 @@ int	check_string(char **argv, t_var *par, p_list **list_a, int *a)
 		if (!read_argv(argv2, j, par))
 		{
 			free(a);
+			free_fun(argv2);
 			return (0);
 		}
 		a[j] = (int)par->nb;
@@ -36,11 +50,13 @@ int	check_string(char **argv, t_var *par, p_list **list_a, int *a)
 		if (!check_double(j + 1, a))
 		{
 			free(a);
+			free_fun(argv2);
 			return (0);
 		}
 		par->len++;
 		j++;
 	}
+	free_fun(argv2);
 	return (1);
 }
 

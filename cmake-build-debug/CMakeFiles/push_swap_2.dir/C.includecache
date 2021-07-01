@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/saltmer/CLionProjects/push_swap_2/ft_sort.c
+push_swap.h
+/Users/saltmer/CLionProjects/push_swap_2/push_swap.h
+stdio.h
+-
+
 /Users/saltmer/CLionProjects/push_swap_2/libft.h
 stdlib.h
 -

@@ -1,6 +1,5 @@
-#include "../push_swap.h"
+#include "push_swap.h"
 #include "get_next_line.h"
-#include <stdio.h>
 
 static int	fun_comp(t_p_list **list_a, t_p_list **list_b, char *str)
 {

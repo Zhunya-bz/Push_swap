@@ -7,9 +7,20 @@ SRCS = operation_a.c operation_b.c operation_both.c \
 		#checker.c \
 		get_next_line.c
 
+SRCS_CHECK = checker.c get_next_line.c \
+		operation_a.c operation_b.c operation_both.c \
+		libft_lst.c read_arg.c \
+		check_arg.c check_arg_2.c check_b.c \
+		throw_nb_stack.c ft_sort.c \
+		push_swap.c
+
+OBJS_CHECK = ${SRCS_CHECK:.c=.o}
+
 OBJS = ${SRCS:.c=.o}
 
 NAME = push_swap
+
+NAME_CHECK = checker
 
 RM = rm -f
 
@@ -77,13 +88,16 @@ ${NAME}:    ${OBJS} ${LIBOBJS}
 all:    ${NAME}
 
 clean:      
-		${RM} ${OBJS} ${LIBOBJS}
+		${RM} ${OBJS} ${NAME_CHECK} ${LIBOBJS} ${OBJS_CHECK}
 		#@make clean -C ${LIB_DIR}
 
 fclean: clean
-		${RM} ${NAME} ${LIBOBJS}
+		${RM} ${NAME} ${NAME_CHECK} ${LIBOBJS} ${OBJS_CHECK}
 		#@make fclean -C ${LIB_DIR}
 
 re:     fclean all
+
+bonus:  ${OBJS_CHECK} ${LIBOBJS}
+		gcc -o ${NAME_CHECK} ${OBJS_CHECK} ${LIBOBJS}
 
 .PHONY: fclean clean all re

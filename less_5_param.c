@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-static void par_3_v(t_p_list **list_a)
+static void	par_3_v(t_p_list **list_a)
 {
 	if (if_sort_list(list_a))
 		return ;
@@ -12,7 +12,7 @@ static void par_3_v(t_p_list **list_a)
 	}
 }
 
-static void param_3(t_var *par, t_p_list **list_a)
+static void	param_3(t_var *par, t_p_list **list_a)
 {
 	par->max = par->len;
 	par->mid = par->max / 2 + par->next;
@@ -39,9 +39,9 @@ static void param_3(t_var *par, t_p_list **list_a)
 		par_3_v(list_a);
 }
 
-static void param_4(t_var *par, t_p_list **list_a, t_p_list **list_b)
+static void	param_4(t_var *par, t_p_list **list_a, t_p_list **list_b)
 {
-	int i;
+	int	i;
 
 	i = 1;
 	par->max = par->len;
@@ -52,7 +52,8 @@ static void param_4(t_var *par, t_p_list **list_a, t_p_list **list_b)
 		{
 			ft_pb(list_a, list_b, 1);
 			i++;
-		} else
+		}
+		else
 			ft_ra(list_a, 1);
 	}
 	if (!if_sort_list(list_a))
@@ -63,9 +64,9 @@ static void param_4(t_var *par, t_p_list **list_a, t_p_list **list_b)
 	ft_pa(list_a, list_b, 1);
 }
 
-static void param_5(t_var *par, t_p_list **list_a, t_p_list **list_b)
+static void	param_5(t_var *par, t_p_list **list_a, t_p_list **list_b)
 {
-	int i;
+	int	i;
 
 	i = 1;
 	par->max = par->len;
@@ -88,7 +89,7 @@ static void param_5(t_var *par, t_p_list **list_a, t_p_list **list_b)
 	ft_pa(list_a, list_b, 1);
 }
 
-void few_par(int argc, t_var *par, t_p_list **list_a, t_p_list **list_b)
+void	few_par(int argc, t_var *par, t_p_list **list_a, t_p_list **list_b)
 {
 	if (argc == 4)
 		param_3(par, list_a);
@@ -97,4 +98,3 @@ void few_par(int argc, t_var *par, t_p_list **list_a, t_p_list **list_b)
 	else if (argc == 6)
 		param_5(par, list_a, list_b);
 }
-

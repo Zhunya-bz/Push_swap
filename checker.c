@@ -89,12 +89,17 @@ int	main(int argc, char **argv)
 	fill_p(&par, &list_a, &list_b, argc);
 	if (argc > 1)
 	{
-		if (argument(argc, argv, &par, &list_a))
+		par.z = argum_checker(argc, argv, &par, &list_a);
+		if (par.z == 1)
 		{
 			i = get_next_line(0, &str);
 			if (!fun_errors(str))
 				return (0);
 			general_f(&list_a, &list_b, str, i);
+		}
+		else if (par.z == 2)
+		{
+			ft_putstr_fd("OK\n", 1);
 		}
 	}
 	return (0);

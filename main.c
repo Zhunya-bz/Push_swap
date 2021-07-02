@@ -20,13 +20,21 @@ int	main(int argc, char **argv)
 	{
 		while (argument(argc, argv, &par, &list_a) && check_2_nb(&par, &list_a))
 		{
-			first_throw(&par, &list_a, &list_b);
-			if (if_sort_list(&list_a))
+			if (argc <= 6)
+			{
+				few_par(argc, &par, &list_a, &list_b);
 				break ;
-			check_flags_stack(&par, &list_a, &list_b);
-			if (!general_cycle(&par, &list_a, &list_b))
+			}
+			else
+			{
+				first_throw(&par, &list_a, &list_b);
+				if (if_sort_list(&list_a))
+					break ;
+				check_flags_stack(&par, &list_a, &list_b);
+				if (!general_cycle(&par, &list_a, &list_b))
+					break ;
 				break ;
-			break ;
+			}
 		}
 	}
 	return (0);

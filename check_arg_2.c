@@ -48,3 +48,17 @@ int	argument(int argc, char **argv, t_var *par, t_p_list **list_a)
 		return (0);
 	return (1);
 }
+
+int	argum_checker(int argc, char **argv, t_var *par, t_p_list **list_a)
+{
+	int	*a;
+
+	a = ft_calloc((2 * argc), (sizeof(int)));
+	if (!a)
+		return (0);
+	if (!check_argument(argv, par, list_a, a))
+		return (0);
+	if (!check_sort(a, par, list_a))
+		return (2);
+	return (1);
+}

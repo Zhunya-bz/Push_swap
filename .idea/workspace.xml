@@ -12,14 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4670e86d-69b5-4953-980a-3ef11dcb2164" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/push_swap_final.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less_5_param.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_arg_2.c" beforeDir="false" afterPath="$PROJECT_DIR$/check_arg_2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checker.c" beforeDir="false" afterPath="$PROJECT_DIR$/checker.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap.h" afterDir="false" />
     </list>
@@ -61,7 +53,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="push_swap_final" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="3 0 1 2 4" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap_final" TARGET_NAME="push_swap_final" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="push_swap_final" RUN_TARGET_NAME="push_swap_final">
+    <configuration name="push_swap_final" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="3 0 1 2 4" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="push_swap_final" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="push_swap_final">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625216900076</updated>
       <workItem from="1625216901442" duration="359000" />
-      <workItem from="1625217784000" duration="3207000" />
+      <workItem from="1625217784000" duration="3718000" />
     </task>
     <servers />
   </component>

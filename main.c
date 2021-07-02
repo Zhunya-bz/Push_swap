@@ -21,10 +21,7 @@ int	main(int argc, char **argv)
 		while (argument(argc, argv, &par, &list_a) && check_2_nb(&par, &list_a))
 		{
 			if (argc <= 6)
-			{
 				few_par(argc, &par, &list_a, &list_b);
-				break ;
-			}
 			else
 			{
 				first_throw(&par, &list_a, &list_b);
@@ -33,8 +30,8 @@ int	main(int argc, char **argv)
 				check_flags_stack(&par, &list_a, &list_b);
 				if (!general_cycle(&par, &list_a, &list_b))
 					break ;
-				break ;
 			}
+			break ;
 		}
 	}
 	return (0);

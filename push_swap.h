@@ -23,7 +23,7 @@ typedef struct s_variable
 	int		size_a;
 	long	nb;
 	int		argc;
-	int 	z;
+	int		z;
 }				t_var;
 
 void		ft_pb(t_p_list **head_a, t_p_list **head_b, int flag);

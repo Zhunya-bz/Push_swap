@@ -1,5 +1,5 @@
 #include "push_swap.h"
-#include "get_next_line.h"
+#include "libft/libft.h"
 
 static int	fun_comp(t_p_list **list_a, t_p_list **list_b, char *str)
 {
@@ -90,16 +90,10 @@ int	main(int argc, char **argv)
 	if (argc > 1)
 	{
 		par.z = argum_checker(argc, argv, &par, &list_a);
-		if (par.z == 1)
+		if (par.z > 0)
 		{
 			i = get_next_line(0, &str);
-			if (!fun_errors(str))
-				return (0);
 			general_f(&list_a, &list_b, str, i);
-		}
-		else if (par.z == 2)
-		{
-			ft_putstr_fd("OK\n", 1);
 		}
 	}
 	return (0);

@@ -10,7 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft/libft.h"
+#include "push_swap.h"
 #define BUFFER_SIZE 1
 
 static char	*check_rem_n(char **rem, char **p_to_n, char **line, char **tmp)
@@ -22,7 +23,7 @@ static char	*check_rem_n(char **rem, char **p_to_n, char **line, char **tmp)
 		*line = ft_strdup(*tmp);
 		free(*tmp);
 		*rem = ft_strdup(++(*p_to_n));
-		if (!line || !rem)
+		if (!(*line) || !(*rem))
 			return (NULL);
 	}
 	else
@@ -41,13 +42,13 @@ static char	**check_remainder(char **rem, char **p_to_n, char **line)
 	if (*rem)
 	{
 		*line = check_rem_n(rem, p_to_n, line, &tmp);
-		if (!line)
+		if (!(*line))
 			return (NULL);
 	}
 	else
 	{
 		*line = ft_strdup("");
-		if (!line)
+		if (!(*line))
 			return (NULL);
 	}
 	return (line);
@@ -78,7 +79,7 @@ static int	check_conditions(int fd, char **line, char **buf)
 	if (!line || (fd < 0) || (BUFFER_SIZE < 0))
 		return (-1);
 	*buf = (char *)ft_calloc((BUFFER_SIZE + 1), sizeof(char));
-	if (!buf)
+	if (!(*buf))
 		return (-1);
 	if (read(fd, *buf, 0) == -1)
 	{

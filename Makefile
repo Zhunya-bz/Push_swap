@@ -5,15 +5,14 @@ SRCS = operation_a.c operation_b.c operation_both.c \
 		less_5_param.c \
 		main.c \
 		push_swap.c \
-		#checker.c \
-		get_next_line.c
 
-SRCS_CHECK = checker.c get_next_line.c \
-		operation_a.c operation_b.c operation_both.c \
-		libft_lst.c read_arg.c \
-		check_arg.c check_arg_2.c check_b.c \
-		throw_nb_stack.c ft_sort.c \
-		push_swap.c
+SRCS_CHECK = get_next_line.c \
+			checker.c \
+			operation_a.c operation_b.c operation_both.c \
+			libft_lst.c read_arg.c \
+			check_arg.c check_arg_2.c check_b.c \
+			throw_nb_stack.c ft_sort.c \
+			push_swap.c
 
 OBJS_CHECK = ${SRCS_CHECK:.c=.o}
 
@@ -29,76 +28,27 @@ CC = gcc
 
 CFLAGS = -Wall -Wextra -Werror
 
-HEADER = ./push_swap.h ./libft.h
+HEADER = ./push_swap.h libft/libft.h
 
 LIB_DIR = ./libft
 
-LIBFT	= libft/ft_isdigit.c \
-		libft/ft_tolower.c \
-		libft/ft_toupper.c \
-		libft/ft_isalpha.c \
-		libft/ft_isalnum.c \
-		libft/ft_isprint.c \
-		libft/ft_isascii.c \
-		libft/ft_memset.c \
-		libft/ft_bzero.c \
-		libft/ft_memcpy.c \
-		libft/ft_memmove.c \
-		libft/ft_memchr.c \
-		libft/ft_memccpy.c \
-		libft/ft_memcmp.c \
-		libft/ft_strlen.c \
-		libft/ft_strchr.c \
-		libft/ft_strrchr.c \
-		libft/ft_strncmp.c \
-		libft/ft_strlcpy.c \
-		libft/ft_strlcat.c \
-		libft/ft_strnstr.c \
-		libft/ft_substr.c \
-		libft/ft_strjoin.c \
-		libft/ft_strdup.c \
-		libft/ft_strmapi.c \
-		libft/ft_strtrim.c \
-		libft/ft_split.c \
-		libft/ft_calloc.c \
-		libft/ft_atoi.c \
-		libft/ft_putchar_fd.c \
-		libft/ft_putstr_fd.c \
-		libft/ft_putendl_fd.c \
-		libft/ft_itoa.c \
-		libft/ft_putnbr_fd.c \
-		libft/ft_lstnew.c \
-		libft/ft_lstadd_front.c \
-		libft/ft_lstsize.c \
-		libft/ft_lstlast.c \
-		libft/ft_lstadd_back.c \
-		libft/ft_lstdelone.c \
-		libft/ft_lstclear.c \
-		libft/ft_lstiter.c \
-		libft/ft_lstmap.c
-
-LIBOBJS	= $(LIBFT:.c=.o)
-
-${NAME}:    ${OBJS} ${LIBOBJS}
-			#@make re -C ${LIB_DIR}
-			gcc -o ${NAME} ${OBJS} ${LIBOBJS}
-			#@make re -C ${LIB_DIR}
-			#@cp libft/libft.a ./${NAME}
-			#@ar rc ${NAME} ${OBJS}
+${NAME}:	${OBJS} ${HEADER}
+			make -C ${LIB_DIR}
+			${CC} ${CFLAGS} libft/libft.a ${OBJS} -o ${NAME}
 
 all:    ${NAME}
 
 clean:      
-		${RM} ${OBJS} ${NAME_CHECK} ${LIBOBJS} ${OBJS_CHECK}
-		#@make clean -C ${LIB_DIR}
+		${RM} ${OBJS} ${NAME_CHECK} ${OBJS_CHECK}
+		make clean -C ${LIB_DIR}
 
 fclean: clean
-		${RM} ${NAME} ${NAME_CHECK} ${LIBOBJS} ${OBJS_CHECK}
-		#@make fclean -C ${LIB_DIR}
+		${RM} ${NAME} ${NAME_CHECK} ${OBJS_CHECK}
+		make fclean -C ${LIB_DIR}
 
 re:     fclean all
 
-bonus:  ${OBJS_CHECK} ${LIBOBJS}
-		gcc -o ${NAME_CHECK} ${OBJS_CHECK} ${LIBOBJS}
+bonus:  ${OBJS_CHECK} ${HEADER}
+		${CC} ${CFLAGS} libft/libft.a ${OBJS_CHECK} -o ${NAME_CHECK}
 
 .PHONY: fclean clean all re

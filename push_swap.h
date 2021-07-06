@@ -1,7 +1,7 @@
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include "libft.h"
+# include "libft/libft.h"
 
 typedef struct s_push_list
 {
@@ -42,6 +42,7 @@ t_p_list	*ft_lstlast_p(t_p_list *lst);
 int			ft_lstsize_p(t_p_list *lst);
 t_p_list	*ft_lstnew_p(int content);
 void		clear_list(t_p_list **lst);
+int			get_next_line(int fd, char **line);
 int			argument(int argc, char **argv, t_var *par, t_p_list **list_a);
 void		few_par(int argc, t_var *par, t_p_list **list_a, t_p_list **list_b);
 int			check_sort(int *a, t_var *par, t_p_list **list_a);

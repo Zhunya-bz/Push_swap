@@ -39,7 +39,7 @@ ${NAME}:	${OBJS} ${HEADER}
 all:    ${NAME}
 
 clean:      
-		${RM} ${OBJS} ${NAME_CHECK} ${OBJS_CHECK}
+		${RM} ${OBJS} ${OBJS_CHECK}
 		make clean -C ${LIB_DIR}
 
 fclean: clean

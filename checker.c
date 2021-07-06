@@ -34,28 +34,9 @@ static int	main_cycle(t_p_list **list_a, t_p_list **list_b, char *str, int i)
 {
 	while (i)
 	{
-		if (!fun_comp(list_a, list_b, str))
-		{
-			if (ft_strncmp(str, "", 1))
-			{
-				ft_putstr_fd("Error\n", 1);
-				free(str);
-				return (0);
-			}
-		}
+		fun_comp(list_a, list_b, str);
 		free(str);
 		i = get_next_line(0, &str);
-	}
-	return (1);
-}
-
-static int	fun_errors(char *str)
-{
-	if (!ft_strncmp(str, "", 1))
-	{
-		ft_putstr_fd("Error\n", 1);
-		free(str);
-		return (0);
 	}
 	return (1);
 }
@@ -64,12 +45,6 @@ static void	general_f(t_p_list **list_a, t_p_list **list_b, char *str, int i)
 {
 	while (main_cycle(list_a, list_b, str, i))
 	{
-		if (i == 0)
-		{
-			if (!fun_comp(list_a, list_b, str))
-				if (!fun_errors(str))
-					break ;
-		}
 		if (*list_b == NULL && if_sort_list(list_a))
 			ft_putstr_fd("OK\n", 1);
 		else

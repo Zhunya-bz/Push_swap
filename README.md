@@ -44,4 +44,10 @@ Checker будет ждать и читать инструкции на стан
 
 ## Usage
 
-> 
+> bash && make && make bonus
+
+> ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG
+
+> ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
+
+

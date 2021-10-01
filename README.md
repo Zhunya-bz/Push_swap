@@ -50,4 +50,7 @@ Checker будет ждать и читать инструкции на стан
 
 > ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
 
+<img src="./docs/Screen Shot 2021-10-01 at 1.43.21 PM.png">
+
+Полный subject на английском языке можно найти <a href="./docs/en.subject.pdf">тут</a>.
 

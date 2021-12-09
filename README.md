@@ -38,11 +38,14 @@ Checker будет ждать и читать инструкции на стан
 ## Usage
 ```
 bash && make && make bonus
-
+```
+```
 ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG
-
+```
+```
 ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
-
+```
+```
 ARG=`ruby -e "puts (1..50).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker $ARG
 ```
 

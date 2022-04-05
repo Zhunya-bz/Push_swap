@@ -1,5 +1,7 @@
 ## Push_swap 
 
+[![saltmer's 42 push_swap Score](https://badge42.vercel.app/api/v2/cl1mc7bhg006309kzftm5w40f/project/2178429)](https://github.com/JaeSeoKim/badge42)
+
 Цель проекта - отсортировать массив чисел, используя 2 стека: A и B.
 
 Правила: 
